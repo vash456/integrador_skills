@@ -1,0 +1,421 @@
+id_usuario,nombre_usuario,correo,genero,contrasena_hash,proveedor_auth,id_plan,fecha_nacimiento,edad_verificada,gemas_saldo,estado,fecha_registro,rol
+1,  villamizarolga ,felipebuitrago@example.net,masculino,eff3cfda4c3ba15ea3e712126f43fe74f72330166e4d48e6a32e8f5523f8e016,email,1,2004-05-13,1,346,activo,2025-02-01 08:48:04,usuario
+2,lopezcristina,londonoalejandro@example.net,masculino,aa91bb1289552259250e1b2a3cc07a788779cc744490e7f50a6cba9cd8eb48b4,email,1,1989-07-24,0,119,activo,2024-12-01 13:54:42,usuario
+3,edwin02,jherrera@example.org,otro,761d6a1bf9580e75cfa815a19e7e69f30b50e13883934096cf5d37d8adb13f98,email,3,1975-11-08,1,112,activo,2025-10-21 19:18:11,usuario
+4,riveraclara,alberto07@example.net,masculino,55f7e1eba55c9e0b77ab1e2a3e310a17198883525b6ba414f5fec31afaa11006,google,3,1983-10-04,1,142,activo,2025-01-25 06:46:38,usuario
+5,alvaro95,diegogomez@example.org,,cdfeaee88ad132f0b2488c09e4ad862ad1b21c30c6fe78eecc1b06dd6ec80315,email,2,1986-08-11,0,433,baneado,2025-01-07 02:22:54,usuario
+6,arturorivera,xacevedo@example.org,,4a37ee90281551b78b2dde8c6a3c9d3b45da019ba8014cd496f6ef8cc269d91c,email,3,1966-04-13,0,472,activo,2026-09-02 05:43:03,usuario
+7,diego19,andresvargas@example.com,otro,4cbc791290affec0a98c477172f35395c5af7640abdffc8a0d8cd9627810b73d,google,2,1975-02-09,1,360,activo,11/04/2026 10:24,usuario
+8,  MANUELBENITEZ ,torresmaria@example.com,masculino,10ec5a14455d0439147c431f997ad7a4c58d5d7be4e55e994d7d0cc3343c302a,google,1,2004-05-27,1,194,activo,25/04/2026 09:42,usuario
+9,fernanda76,isanchez@example.org,femenino,e800ed97f10c402b7f4e3a65519a98190824f03558ce2fe7e5ad543f80d6505b,email,2,1965-05-10,0,136,activo,2025-04-19 18:26:41,usuario
+10,zburbano,marina28@example.com,,e5ab855c3cb896d1f68cf085cdf0cba058ec5b2fbdcc2a17bcf79f5542b4d7fb,email,1,1997-07-12,1,125,activo,29/05/2025 23:17,usuario
+11,sanchezcecilia,yhurtado@example.com,otro,338722e96dad3aae7568873eb3b6e1944c3f951dc876e9865a963bee68f43e8c,google,3,1964-01-22,1,350,activo,2026-09-06 17:33:41,usuario
+12,moises01,sebastian51@example.com,masculino,b382eee8a1e927eea2662029fa1145c2a37c755240783750bcee75eebd05e1eb,email,2,1992-09-13,1,33,activo,22/12/2025 20:50,usuario
+13,miller28,polostella@example.net,femenino,129adba1ba029e5a4c8547c1cbfe9b84ddcccb790751eeeef1c5fe77d06badca,google,1,1991-09-23,1,202,suspendido,2024-11-09 09:56:12,usuario
+14,cristian88,carvajalfrancia@example.org,,c509823c0820d9d7ea38abcff816c8fb5eebca42f04a3833721db9af6927f77e,email,1,1974-05-21,1,275,activo,2025-03-05 14:34:12,admin
+15,MORENOCARLOS,garciayury@example.org,femenino,2eb28aab3b37da76916e5718305a00835a518306f46227f39c45dfc21dbf85fd,google,2,1981-10-11,0,70,activo,2025-05-11 21:09:15,NULL
+16,carmenortega,monicaarboleda@example.com,masculino,ee812f64f9dfc12ca46bb74d063aeefa350a914638c212e8580f0e96f0a403d7,email,1,1997-02-06,si,405,activo,24/06/2026 17:37,usuario
+17,ALEJANDROCASTILLO,betty87@example.org,otro,0df9731ff6cf9f9e8f6ef50977663da4e1346d9c019d8f3ad75ef9d8c8ceb5b0,email,2,1997-07-20,1,497,activo,2026-06-16 12:36:12,usuario
+18,fernandezangela,mariatoro@example.org,,43607879d0e7540c1e9f06a1ebd469b9d7d2d60b0f17af3b61fa519bdb1d02ee,email,3,1965-03-17,si,384,suspendido,2025-07-27 11:48:41,NULL
+19,patricia34,irojas@example.net,femenino,6960e3035eb7b446c77ab58e3b2d14ff5630e87670745de3f6d9f3314c8bdbb0,email,1,1962-12-27,1,488,activo,2026-09-05 14:12:18,usuario
+20,evargas,gramirez@example.net,masculino,c57cb39c56875042b4c879360d594d872b8863b664302f393eed0dc8a504f0a4,google,3,1999-09-17,1,445,activo,2026-01-28 10:48:12,  usuario  
+21,dalvarado,martinezmiguel@example.org,,4df9b6266933c21e25141c62a83d54bc34c4aea60605d049b35b5fce0a94b9f2,email,1,1989-09-04,1,82,suspendido,2025-09-22 04:56:29,usuario
+22,lhernandez,lucila17@example.net,masculino,fd2dd57fc13de88607fd0c2173856eb61947cfec1eb14195b8f53de07047513c,email,3,1973-10-17,1,9,activo,2025-12-28 10:31:50,N/A
+23,tamayoalirio,claudiareyes@example.org,,7f533c2b9bfcc76e6e2223b0f9529dd28b84461ea28284bbe564339b829bf8a2,google,1,2005-03-25,0,449,activo,2025-12-31 18:43:45,usuario
+24,yrodriguez,,masculino,1539dc277e77e36016bc9a398446625be1a84c2167eb717464df241aab5894dd,google,3,1964-11-03,1,65,activo,14/03/2025 18:29,usuario
+25,ssanchez,edermurillo@example.net,otro,d8531e35a38d9cabec678ee972b24563ce9eee9190057473f09f310fa7b2711c,email,3,1998-09-02,1,108,suspendido,2026-04-04 23:36:54,usuario
+26,  orozcojose ,luzpalacios@example.org,otro,1f08483864cf95da973af5c9f9050fa2b7bb0c15d730dcfb6d070d8e5e563214,email,2,1982-03-11,1,343,activo,2024-12-21 07:04:39,admin
+27,liliaibarra,carlosgomez@example.org,,9d8b17792924fe7650dd9583ce2d0f34bb07c7ffeea1cb33efa4b7df92fbe884,email,1,1965-06-23,0,173,activo,2026-04-15 08:18:50,usuario
+28,ignacio35,monicahernandez@example.net,masculino,3cb4da1416034d6de3200b48f1722e12ea1578ecadbce96c36ce255732163d1e,email,1,2000-07-27,1,30,activo,2026-01-19 22:01:59,usuario
+29,  rodriguezantonio ,garciafernandaexample.com,masculino,2f20d6265cfd212b8b69eba30619f3efe1eb4504cfafb15654e80f37eedddfed,google,3,1982-05-14,0,342,suspendido,2026-10-29 11:35:47,usuario
+30,cuellareliana,bettyrios@example.com,otro,a555b4b24dbe50fd91d6762ae7fb6eb25ea5c09dd23b824e4dec5e65b87ea968,google,3,1984-08-07,verdadero,401,activo,2026-09-22 01:56:17,usuario
+31,sotoluis,ricomarcela@example.org,otro,157f62fd0bad5b4bc794ad19ffb7117173489013111e5f3edfe90945ad0635c4,email,2,2005-05-09,1,210,activo,22/12/2025 17:36,usuario
+32,blanca35,eduardomarquez@example.net,otro,d93d4e55114cda87626e8a5ce601bf09c184051654fb0e3a89e1de39dc367aa1,email,1,1998-07-01,0,372,activo,2025-03-07 15:11:55,usuario
+33,CSALCEDO,quinterocarmen@example.com,masculino,f5812005d2e9d75cc6cffbf8f7f37110585b81e2c34ff11bf98927d143fcc2c8,email,3,1964-04-22,1,216,suspendido,2025-01-17 14:00:28,usuario
+34,  hlondono ,garceseduardo@example.org,masculino,1d2befd06e8cdfcab58bad1e92ab198690b719f637ad0fa3bb3ceb974d7f308c,google,2,1990-12-01,1,438,activo,2026-01-09 09:30:29,usuario
+35,  rubygomez ,ernesto05@example.org,masculino,8109ae0b7754ec4f261158cd94267c0573ad8982d377ba0293da44c00c9e3487,google,1,1985-12-22,1,434,activo,2026-02-02 08:12:18,usuario
+36,  julio69 ,robinsonmoreno@example.org,femenino,e84303888d739510bf26246c32123cbb12854ef01511d54360615518a1526720,email,1,2006-03-27,0,1,activo,2025-01-25 17:39:06,USUARIO
+37,vrodriguez,julio63@example.com,femenino,c399b75df9b050d9abe323fd23b976c8951fb5e9d682e021b6e90a37f3c16cef,google,2,1972-11-24,1,490,activo,22/09/2026 12:13,admin
+38,ebohorquez,alejandraprada@example.com,,7f60cf721e511eef5351c189352e0ee5be7f6a533bb83a2ab79ab6e609167674,email,1,2008-07-28,0,111,activo,29/01/2025 20:29,usuario
+39,duranfanny,wilson45example.net,otro,39f2874822232c486ee6180c7b514482ceddd4937214d01124a6be026be73a72,email,2,1976-05-03,0,299,activo,2025-04-29 01:02:09,admin
+40,samuel14,carloscastrillon@example.org,masculino,a7f84dca1020dfde753fe465f382240eb8b813f8bc1b7496e4ec061f91d58a59,email,3,2007-02-03,0,95,suspendido,2026-08-24 04:25:25,usuario
+41,shirley81,mmaldonado@example.com,femenino,6b060c557e0f9855e3a3e7631eda9624ab6fed5f7e98985ebeb562bea716db9b,google,1,1990-06-04,1,291,activo,2025-08-02 09:30:52,usuario
+42,JULIANAGARCIA,antonio14@example.net,femenino,797a3e45e9927c4aa1e860d148f6659636626202bebd827a8c96f7d67a77bf6a,email,3,1990-07-11,1,267,activo,2024-11-08 04:58:02,usuario
+43,jbenavides,lilianavergara@example.com,femenino,f95c35f91be92b376ff4f49c9684d99b3e0fc8cd6a8026ffcd6e10270160243b,email,1,1988-08-22,0,67,activo,18/07/2025 05:55,usuario
+44,mariana04,laura99@example.net,,49f4a09a8de0fd4a47932b5b035c1b3ef2ce46ec3c5eef533e27cb59ba0ca63e,email,1,1972-09-10,1,288,activo,27/02/2026 23:28,usuario
+45,josealzate,alexandergutierrez@example.net,femenino,65a31258120287f1c42a7d3537c5429b753f439e7bd73d8c4b70e7fbec33af1d,email,1,1990-11-30,1,451,activo,2025-10-16 07:53:44,admin
+46,javiertorres,milenagomez@example.com,femenino,6d5cc4adf9db9a163e3a98672035a5b9d649b67517b49d12801f2c769555ff0d,email,3,1983-08-30,1,313,activo,2025-01-18 10:18:11,usuario
+47,krivas,oscarflorez@example.com,otro,dc1bb474626dff322d94cafd14825be917d2501d21e409e7f843775bf0189851,email,3,1965-10-22,0,339,suspendido,2025-10-26 15:00:44,admin
+48,galindohumberto,patinomarina@example.net,masculino,29f277b93be2f63d1cd95f8c843090fdab1307362d37e53f6264acbe1d4bd7be,email,3,2005-06-30,verdadero,139,suspendido,2026-04-24 23:39:02,usuario
+49,gerardogonzalez,franciscosoto@example.net,otro,959116a2fe59f975e341773f6b726610ef4d72536f100820215de367fc79657a,email,3,1964-04-08,si,258,activo,2026-01-13 20:14:12,usuario
+50,jserrano,vtriana@example.com,masculino,433d02697b19772a55b3e26988ed5942315fd72821f3bae249e9b726e6619cac,google,3,1990-12-20,1,141,suspendido,2026-02-25 18:06:24,usuario
+51,sebastian87,esperanzagarcia@example.com,femenino,a40cf42c158e929c92ab97d45f2296bf6e6b5adbd3621b3771fb35ffe583855a,email,1,1977-09-04,verdadero,282,activo,2026-08-21 05:37:07,usuario
+52,hernandezangela,camilomartinez@example.com,otro,c58f1d9805feb3bcc39979b46d8fe8a895f81d144a57de910133624f79868cde,email,1,1983-09-15,1,427,activo,13/07/2025 05:15,usuario
+53,ROJASMIREYA,zuluagasebastian@example.com,masculino,1d0d217e4b69baa6a3d574fdae8881893fa778cb70832605cecd5933512c8901,email,2,1992-07-22,1,477,activo,2025-09-25 20:01:59,usuario
+54,AMARQUEZ,yenifercastro@example.com,masculino,4ee055718325f5b925326fddb471a8dc32e82ce163323fccc65df906254b1e55,google,3,1984-10-15,0,52,suspendido,2025-06-26 19:58:58,usuario
+55,  DVANEGAS ,arbeylozano@example.com,,e11becac0698dff0bfe8233e1a74222df023c236c59dd5ce671ba9f1b73321f5,google,3,1983-09-22,0,476,activo,2026-04-10 10:08:51,usuario
+56,francomarcela,qdiaz@example.com,masculino,46297af8fe9c84d17683f77c4a647eb48d94fac6d4c0ccdb317e968bdd283bf9,google,2,2005-12-19,falso,377,activo,2024-11-27 22:39:30,usuario
+57,cristian64,fvargas@example.com,otro,707a17d86a3f5f7e9f371421405abde0a7373af1dc199e54580c64a9f080686b,email,3,1991-10-17,1,136,activo,2025-07-18 18:17:13,admin
+58,ines10,quirogaalejandra@example.org,masculino,189b2f4152ce553578e923750d401a69c599a1a5b01e298139797b3687652a6d,email,2,1997-07-23,0,418,activo,2024-12-17 08:23:08,usuario
+59,kcamacho,antoniamunoz@example.com,masculino,56c5aefd517728cfbccddc2ae5d1936558ad0df6501838846e2387b5d3218aa9,google,1,1977-01-31,0,98,activo,2025-02-12 22:22:09,admin
+60,castanoclaudia,sandra04@example.net,femenino,53c8ff89b05ef05aae10b6e095e5301d8da967cbfd3feb10efe4ae69ae6d2c0a,email,2,2002-03-05,1,204,activo,10/06/2026 19:47,usuario
+61,anabarrios,sandraperdomo@example.net,,f89b94e8148aa3e870c6fe9931c68c26983a1ce11329cf9440045ee0d0fe825f,email,1,1986-05-23,1,133,suspendido,10/09/2025 23:36,usuario
+62,romeroelisa,patricia50@example.com,masculino,48813eb23130643e1a7c4c2430ae8497984ba4343c3f58ce967e411cb72dd416,email,3,1969-02-01,1,373,baneado,18/07/2026 08:11,usuario
+63,fernando72,hdiaz@example.net,masculino,aa03a91905e949405ec3cdf8bea226e87488f8369e31429831fb393818cc4f1d,google,2,1968-01-13,True,97,activo,2025-10-09 14:54:05,usuario
+64,URESTREPO,,otro,6c7bc80a4c867a5ee948aaeb803fdca900d3d395576708a3a9a4e4a2e03adabe,email,3,1997-06-22,1,379,activo,2026-07-01 13:48:10,usuario
+65,qjaramillo,fquintero@example.com,otro,406e2c0c4080134251b0d10905981fdd675977dda1e7d3a82b5b47db59854b5f,email,2,1977-06-12,1,339,activo,12/06/2026 19:19,usuario
+66,ruth94,delgadoliliana@example.org,femenino,b48b5d6e5b4c8246076b89a2fc270924a14b4a2f2cdd8f9b3902abe4f3dd936b,email,3,1975-04-15,1,206,activo,2025-08-09 11:51:23,usuario
+67,eduardojaimes,bcardona@example.org,otro,362d66ce1e784afb997f8e6735337167d6c5e7ef5d9622a81371e7a2ed71727d,email,2,1994-02-05,1,462,activo,2026-01-12 02:40:27,usuario
+68,vivianamurillo,wcortes@example.com,masculino,68eb077cae411df533498b17b26feb30de0a79df70c999cc9056321cec8645e3,email,2,1988-05-15,falso,220,activo,2026-04-28 05:17:13,usuario
+69,diego44,angela35@example.org,femenino,aa9b7d2f7190e9f8c2ec23ae64c7edf7eb69d0da0fc75bd90cbeff6be76429bc,email,2,1998-04-21,si,261,activo,2025-07-21 19:50:11,usuario
+70,fernandaramos,domingo34@example.org,masculino,8e98aa2ac5eec90a24b4830d8de2c493633ffb97129119c77fd50e2de807ace5,google,3,2007-10-26,0,263,suspendido,2025-03-30 16:52:58,usuario
+71,esperanzabastidas,jhon27@example.org,masculino,ad17e5a624bbb01dc90e21f707036f8337e97f09276498d4e8370a4ffddf808c,email,3,1981-06-02,si,412,activo,2024-11-17 21:11:03,usuario
+72,vacosta,tuliomunoz@example.com,femenino,eb9802f8be31f9dc3059e39cb64c77819bdc4ecd7dcdf2a1723e9d7c1a32ec3a,email,3,1999-12-01,1,37,activo,2025-06-15 17:54:32,usuario
+73,  ogarcia ,sanchezedwin@example.com,,be73bae8060ab15e962344506dc4488c484edd08795b96274058d21598d01621,email,3,1965-04-19,1,204,suspendido,2025-09-14 03:10:04,usuario
+74,ycalderon,ivanflorez@example.com,masculino,ee6e3dbd7c1c707cd0883e71ae9083f57ebb73711ec3721bf6495657506d6783,email,2,1977-09-27,falso,411,activo,06/02/2025 21:32,usuario
+75,carlos09,erazolaura@example.org,masculino,5777bdfb428e76e18330291872dd279a8b627638bf46fbf522e57ad37cdb883c,email,1,2000-11-24,1,410,activo,2025-10-05 23:24:26,admin
+76,carolinagarcia,parraeduardo@example.com,femenino,d93baa3c55fa724b9b93dc849288c9df78ab3b9882873822a4a78c2cadf8f47d,email,2,1966-05-17,1,368,activo,2025-03-08 21:11:46,usuario
+77,diego71,martinmesa@example.net,femenino,c93f0c8d8ca3d53008de178b0ece9ae532690b99e528b1f16a562cacd95a9600,google,1,1976-08-08,verdadero,243,activo,18/06/2025 16:06,admin
+78,vasquezjorge,pablo10@example.org,femenino,a80f32469238cd672fa0c162338c44f813ae37087090d063b0b3113ba8bca619,google,3,1974-04-24,1,122,activo,03/10/2025 02:36,usuario
+79,melissa74,gvalderrama@example.net,femenino,a9e4ce44efc56d8692e6f4a23b09e37c93f1d3454b64075f4be1639ff9d35405,email,2,2001-05-05,1,276,activo,2026-06-11 15:01:24,usuario
+80,campofelipe,maria39@example.net,,0b4a2365a0a6222a90e1a85d75518651aef8744a9ebede3643f1e4c81769e079,email,3,1966-04-29,0,212,activo,14/02/2026 09:39,usuario
+81,carlos27,lceballos@example.net,masculino,6e7ae9ebddef11849d495db051aa14e7f8307610ab4185f88d7773bd0be8bb55,email,2,2006-08-07,1,394,activo,2026-08-06 21:50:29,usuario
+82,vromero,,otro,3d02f132735c80a5d212819e3f18833c47b57c463b74a644df4767c0287c1965,google,2,1994-04-24,1,482,activo,2025-01-16 18:19:17,usuario
+83,  jaguilar ,cardenaseugenia@example.com,femenino,9229b84961c49e4b6890eb9c283edd5ad9ca04331983ac434f67c99ae4ab2f8c,google,3,1980-06-18,1,279,activo,2026-04-05 12:53:31,usuario
+84,  navarroandres ,hmartinez@example.com,femenino,fffd22de629f5a1a2d2ba96975e0e3a5a42805a9b5519d158eb54553a7b23295,email,2,1988-05-09,1,199,suspendido,2026-09-09 16:32:29,usuario
+85,nochoa,luis47example.net,masculino,6e9b23549612bb3b507f5648c79c6931ecbb06a77d889d14a335833f26903e4c,email,2,1994-10-10,1,318,activo,07/03/2026 15:54,usuario
+86,camiloalvarez,cortesandrea@example.org,otro,48db1226ccb1efa4538fc3d9c8a8425f34653b137682f1eaf33c0ecdf19793cc,email,1,1962-10-25,0,219,suspendido,2026-03-11 05:54:22,usuario
+87,lilianbecerra,marleny77@example.org,femenino,98825c006d0a363ba7679d63f4dec73c9142c840f1e965ea5384cf79f3c8ceac,email,2,1968-11-04,0,167,activo,2026-03-24 23:37:24,usuario
+88,elkinpalacios,,,8f582f7927625174fec5e79f3764c1ae6b98546d0f20d9f300cf25a79d2942db,email,2,1970-09-11,1,240,suspendido,2025-08-31 20:00:04,usuario
+89,  gutierrezstella ,cleal@example.net,femenino,f67addc48c07eff02a9a9834b02152effb5cc59a10c40f9aaf8f37eb960ac67f,google,1,1995-05-27,1,399,activo,2025-06-02 09:53:56,usuario
+90,ucardenas,arbeymoreno@example.com,masculino,aec6b9bc61ef84998e4f3170fde32019dd11ba867a5d7eee306040c8fc02b3e2,email,1,1983-06-22,1,318,activo,2026-01-09 13:55:33,admin
+91,mauricio66,aleidagomez@example.net,otro,33d1c269632b37ad37667a3030330d18be7a7ef77c95f27dfcfa4d3e0e3148a0,email,1,1988-10-20,1,131,activo,10/12/2024 19:05,usuario
+92,pulidocarmenza,jrodriguez@example.com,otro,f57adcee92d7392f97969240227847ab1910dd076b1e594ac309f58abd8783c0,email,3,1983-06-11,0,-419,activo,2026-09-13 09:49:43,usuario
+93,qocampo,antonio61@example.com,,b9d995af05eb6d0ac1816cf8ba353dcafbdd2162439aafc59941c09ba951fadd,email,3,1971-05-10,1,490,activo,04/01/2025 00:20,usuario
+94,antonio78,garzoncristina@example.net,otro,844795f7d4405d7b587384af18e0d828b260bfecdbcdbb285df6dbf9ef15d578,email,3,1997-03-01,1,124,suspendido,2025-08-29 01:19:41,usuario
+95,  mejiadiana ,marinjhon@example.org,otro,5af87dc60ebb04fd4ba9f7399e78e59a868a6a887b94f7aa61047826ef9785f1,google,1,1976-05-01,SI,289,activo,2026-06-09 22:10:25,usuario
+96,janeth23,yospina@example.org,,5dc8482cce39d80e975d4ae757121622d458da0402f9011d9cb0a487720e4068,email,1,1964-09-01,1,174,activo,2025-06-22 18:12:41,usuario
+97,pbeltran,jbarreto@example.org,femenino,112bab68dd812e83016338cc0805a797ee98524cd7ad1339ea2e374c538bcf08,email,2,1966-03-23,1,424,activo,2026-02-23 07:11:24,usuario
+98,  enrique74 ,patriciagarces@example.net,otro,ea3b38aabd6cec5112e33d2e09e95ce42c4f4ff2aae626c2241282c74be8d3e9,email,3,1978-02-18,0,413,activo,2025-10-29 20:27:17,usuario
+99,tania43,gmarquez@example.org,otro,2d3fa1d969a4e9031a8678b86af894ce7bf7653b8d38ccfeea9f58bf5b4f1cb6,email,3,1989-09-22,0,436,activo,2026-04-27 01:48:58,admin
+100,faber40,kcastro@example.net,femenino,a20db13cf925a4389d7de1fa7a4e3a5fa8d4a9fc6b7e462ef8156ad9c7b65ce4,email,1,1985-04-11,1,-291,suspendido,2026-01-27 08:42:38,usuario
+101,sroa,albertoromero@example.net,femenino,30bb6f0844bb8cad296298f3940c38e35f72ac64b193851b21b1fff48508e1e8,email,1,1964-03-10,1,181,activo,2026-10-15 04:34:12,N/A
+102,antoniorenteria,alvarezedna@example.net,otro,b4b049ee4a7ee96a6667f3a3fc6c99a4ba9afa95f26e37b14d1a734c24e5ee00,google,2,1977-11-27,1,264,activo,2026-04-17 07:53:05,usuario
+103,teresa62,marcelamontoya@example.com,femenino,bcedff5c253d6227038f7dbb3bf1581ab8bb0c41144cce1c5595c2300a68e228,google,3,1969-10-17,1,353,activo,2025-01-15 21:38:51,admin
+104,rocioluna,sparadaexample.net,masculino,90d90c3a17dd9da972db6aa5bd42c7f54d7e91d906379897a54b1b967edb1ef7,email,1,1979-05-25,0,207,activo,2026-08-13 22:34:17,usuario
+105,hernandezdidier,zparada@example.net,femenino,3b911258a18748eedf34ebcfba5548776cc25c297cb3b199051199381f95e8d9,email,3,1968-09-08,verdadero,217,activo,2025-11-05 15:46:10,usuario
+106,andres75,juan51@example.net,femenino,f154ada544a5c8bce19a4964ac934218c6a42918bdb8c02f8dff00d9cb9837b4,email,2,1987-09-14,1,118,activo,2024-11-17 16:54:08,admin
+107,albeiro31,tchavez@example.net,otro,f4a3a20e99c9215a48965e288fd67c2d90c08062994bc4b0d589b33ab6ddfa15,email,3,1962-07-21,0,110,activo,2026-03-03 02:37:49,usuario
+108,suarezjacqueline,morenoandres@example.com,otro,91822048bab2a2e527b1c9deb1e0273535c8d66bf4fddec119f2795f69a5d25a,email,3,1970-05-13,0,51,activo,2024-12-12 02:45:55,usuario
+109,UFERNANDEZ,hugohoyos@example.com,femenino,046d5b375d1a8b0e7e8b917cb8b01eaee4cb8d0bef7e2c75d1b4c4e079c179e5,email,1,2006-06-24,1,64,activo,2026-06-07 02:34:32,usuario
+110,marina73,diana58@example.net,,28c904ff9aad21a5c3bfad57490eced74e4ad68db6fb00f91dd1312c60884ef6,email,1,1979-11-20,1,385,baneado,2024-12-02 07:18:55,usuario
+111,JIMMYNUNEZ,nlopez@example.net,femenino,1a9f1c0ada64ffcab83cde54c5f07eb8a7943cb6ae7e9de43089f3f8622930ae,email,2,1987-12-11,1,94,suspendido,2025-06-09 04:14:33,usuario
+112,olga29,patriciacabrera@example.org,masculino,bc2a80140d519b9fe49c2788c69cc58d308574eb5bbf0fcfe31a23128fc0abbe,google,1,1962-04-21,1,37,activo,16/12/2024 04:17,admin
+113,fabianhurtado,esteban22@example.net,otro,9ec00b9a0f5d6df33a1ca46b1a5669096fd8112804ffc34389bfb420ee845983,email,2,1976-09-15,0,127,activo,2025-07-20 02:14:01,usuario
+114,hernandezclara,juanrodriguez@example.com,,7ee6ce5b5266000aab1612a600ed79c436a2252d741077087d237663232a6d31,email,1,1972-09-22,1,194,activo,2025-01-31 06:36:55,usuario
+115,sarmientoirene,jose17@example.net,femenino,08ca5b143e34a7b52ca6edabf3d465cef7ef3a8c1252ad61aba6c0c39da4e58c,google,2,1989-07-01,SI,30,activo,20/12/2025 12:23,usuario
+116,  yineth00 ,bsanabria@example.net,masculino,8140c4f024dd8874c90104f7c162c3c74302ec96dff67c026938532e221f816c,google,3,2002-09-16,0,338,activo,2024-12-10 13:49:21,usuario
+117,ruizmilena,esperanzabarrera@example.net,,4f1705f5e7603ac4821bee32e215ca58b5df08635af74e3ad8571e6f96f7b0f6,email,1,1991-01-13,1,352,activo,2025-01-02 23:24:21,Usuario
+118,valeria96,alzatemartha@example.net,otro,a8f58a9b60ca317c66c3453476e4b87e4b266f0b7bac7dff4b77fbf6b4e29732,email,2,1986-10-09,1,232,activo,2026-02-13 21:37:51,usuario
+119,rubycampo,dherrera@example.com,otro,c173ebb04d7cba0b11c832f042982937dae3c515746d308b278b81fa1c70aa5c,email,3,1998-05-15,1,478,activo,2026-05-20 18:52:10,usuario
+120,qalvarez,leonel71@example.org,masculino,eadf71bff8d3b3f287b611345ae2a3c80cebdb0ce51a775eaefeb67a132941fe,email,2,1967-04-28,1,36,activo,2025-07-07 15:45:47,usuario
+121,sarmientoalicia,luisorozco@example.net,,c59d560e6b5158d1ebb356737874cceec240d93b043801de8bd15d24fac61f92,email,2,1967-03-13,1,239,activo,2025-10-08 08:12:05,usuario
+122,qromero,usalas@example.org,otro,68ce1254ca2c5c0985b6d6477707ad3232318f7f3d8fd3bf86730874c4be56e3,google,3,2006-06-12,True,41,activo,2025-02-09 19:59:45,usuario
+123,sandra83,alexandertorres@example.org,otro,fda7a432b87dda04dc1c705c7e4a2535de71e411c04acb8417f3ec5b7081ee22,google,2,2001-09-16,0,-117,suspendido,2025-07-07 13:54:33,usuario
+124,  castellanoscarlos ,xmeza@example.net,masculino,2158f6a63fa3f01c7959ecfbe0916781e3bbf9fc93bf42391ca3e26099fb730e,email,3,1998-09-15,1,295,suspendido,19/08/2025 09:16,admin
+125,leonalexander,maria44@example.com,otro,e76a98a4009ce80bc1ce453e7362783e015b7c30d4b02db72b1ec9a60b3a34e5,email,2,2004-08-02,1,92,activo,13/01/2026 07:49,usuario
+126,carloscastillo,jairodominguez@example.org,masculino,c44d8c094ea7e54d68b5b8398cac95e52a3b9c7c4d355a6d2dbdc7eb114c2281,google,2,1973-03-12,si,170,activo,2026-09-13 12:51:21,  admin  
+127,kcardenas,mercedes59@example.net,,fdd7dcc1a82e0948fe3f21834eac3aecc842e2c5cbdf0c8a8aa798fe99f95b3b,email,3,1975-06-29,1,339,activo,2025-08-26 02:12:42,usuario
+128,alfonsomartinez,ortizalexander@example.com,femenino,61bfc2fb6ba14f61ae6e4c585050d8735212351f1abfa2c08597dd200e87874a,email,1,1964-06-06,SI,165,suspendido,07/03/2025 17:39,admin
+129,alfonsogonzalez,rgonzalez@example.net,,49bbd4ee258c2b73f40c37d6c1d446631dc80f8ef458a612919d218b0b0cef58,google,3,1989-01-13,1,236,activo,2025-06-07 01:38:19,usuario
+130,maria69,rodriguezkaren@example.org,femenino,c8f6ffb75795c76606a043db156242f915ec133f9a20eb1d95793ac257d4acb9,email,3,1996-09-16,1,26,activo,2026-04-09 01:41:31,usuario
+131,paola76,carmenlozano@example.org,femenino,6109fd8e6a42afd67786af518ed181b041f6726a54f14b1d5ed89ea5a9546001,google,3,1978-03-28,True,14,activo,2025-06-19 17:07:31,usuario
+132,patricia06,cruzana@example.com,masculino,149510318e118cd3315afb69462147aae45942bce369a39f76805777a598caaa,email,2,2006-04-24,True,282,activo,2026-07-26 02:06:01,NULL
+133,zgutierrez,pazcarolina@example.net,masculino,e4e8ad2d35b5e6a2eadd72e4fac18d267d0f948514edc7ea6853619fab482b82,google,2,1999-11-14,1,331,activo,17/09/2025 00:25,usuario
+134,andrea13,hfernandez@example.org,otro,86d99424f394538b2115a6fb15e6a66718d89fb8be82f85b595e2d5d1ef114e5,google,3,2007-10-12,0,427,activo,2026-10-22 07:11:26,usuario
+135,  ines21 ,contreraselena@example.com,masculino,770b7b0802d06b902d3449fd7cd3b7bfa4758f2af7ccfb128fabe928ab44e032,email,2,1981-12-18,0,306,activo,2026-06-09 04:14:57,usuario
+136,leidysanchez,carolinasanchezexample.net,femenino,135a9439d58c1e056f173ecee9595f5e467a2aa6ad3b584dbfcc4e8a56415af6,google,2,2004-10-09,1,403,suspendido,2026-08-01 22:49:50,usuario
+137,wgallego,kduarte@example.net,femenino,ce50134fb7224ab8a2caa22fe98f34654989b3be516dcac896613a1da48462b4,email,3,2003-08-01,1,337,suspendido,2025-11-25 16:26:55,usuario
+138,  lucia17 ,ybarrera@example.com,femenino,1e21084acd0aa6ae60d1638dcd686868de0a43d8c0d7765832531bef5d37a895,email,2,2003-05-08,1,278,activo,2025-07-15 22:28:40,usuario
+139,alvarezyesenia,ariasalexandra@example.net,,4b0b6205fe98bb3d26c704d03628d8967f8f75585ee1d28edbdebe1d07e42d8c,google,1,1984-10-19,1,119,suspendido,05/12/2025 22:53,usuario
+140,jrestrepo,cardonaedwin@example.net,femenino,9c334aadb9bc518e778036a302fd399868bc55b183f910191a3bcc15f9f7e175,email,3,1966-12-30,1,195,activo,2026-02-27 14:01:37,admin
+141,anibalcardona,ciro18@example.net,masculino,770e6ce28b3905587fbebfb4d4c2250b8db9a3ab915c2992f5a0f8cb5e86eefa,google,2,2002-01-08,1,64,activo,2025-11-11 07:48:26,usuario
+142,harroyo,julianaprada@example.com,femenino,b2b72fc7767ef24115696b16e61ec79b46eef0a476382d9cb71cc31e146f116e,google,1,1977-09-16,1,233,activo,2026-05-10 12:27:51,usuario
+143,  angulojorge ,valencialuis@example.com,masculino,d9a83dab93cd140514ead64d0e824e0190b9c15556f9dae824661bfd2de8aa88,google,1,1983-11-17,1,496,activo,18/04/2026 05:00,usuario
+144,nellymurillo,wilmeralvarez@example.net,masculino,b1d705e2fe747a923c733d2a16577c5a7b4e4afaa179879326b68b367da2f9fa,email,2,2005-07-12,1,439,activo,11/10/2026 20:53,usuario
+145,alvarezleonor,john81@example.net,femenino,ba4b3a1286a0d0eca1914dfb3fccadac39986e498c3b6061b16db1c32d9550ea,email,3,1987-07-11,0,35,baneado,2025-02-15 01:16:22,usuario
+146,moralesgloria,florcastaneda@example.org,masculino,8a836049fba6960278cfdfa453ba911935f4e5d23c349a64f7765fdb30f07207,email,3,1995-06-15,0,500,activo,14/08/2025 22:24,usuario
+147,jimenezfabian,,femenino,d89a7969f77eb3301b80da5c28c7c054a9b450e91128f20b706a89dcd6d71b9a,google,1,1970-03-19,1,462,activo,07/03/2025 05:49,usuario
+148,  gloriaaguirre ,oscargomez@example.com,femenino,c0cfc2c74374fb9696744c67c80927b373889423af17f59104d322f2080aea77,email,2,1986-06-27,1,125,activo,06/03/2025 16:55,usuario
+149,alfonso73,nataliamontes@example.com,masculino,29bb6d43fe2f3edd6c1659438029ae8c1efc34139d4311781babd55e5fd11010,google,1,1977-01-05,0,445,activo,2025-10-17 21:54:13,usuario
+150,srestrepo,,otro,b1aee09855a5ca78f0054284ad6a66fcf512e51c0bd0c0e06534f7f2bc350477,email,1,1974-01-20,0,326,activo,2025-08-19 14:29:31,usuario
+151,luz75,amayajose@example.org,femenino,b3779f7840f5c8176613286e3c23b1eee9b5735fa1b53e745728e8d005523604,email,2,2001-12-30,1,80,activo,2025-02-22 09:22:31,usuario
+152,jespitia,olopezexample.com,femenino,39facb0dfeed7d9df7e5fd124132f314857f2163a1a46ed7663566599ae6f52d,google,3,1971-10-05,1,353,suspendido,2025-06-06 18:38:17,usuario
+153,medinakatherine,xportilla@example.org,femenino,30af809cbc1422f6338e12f1f631283d1d7a5f5f430f3f2aacfb017fd7ced07c,email,2,1962-08-31,0,195,suspendido,2025-09-25 03:40:43,usuario
+154,dario20,gerardo72@example.net,femenino,e2f66b5984d76e818986103a19b82cb599394e37ef6e4244767e3301ac71f5d9,google,1,1967-08-05,1,337,activo,2026-08-20 16:49:10,usuario
+155,rodriguezfernanda,luisbonilla@example.net,otro,6ccde8c8f594ae26ef8d05b07ac8faa255eb0f2a8d7be9ad6fbaffe5a2063047,google,1,2002-09-22,1,381,activo,2024-11-10 23:19:44,USUARIO
+156,paola36,fmartinez@example.net,masculino,661e7fd6f0f6faacbe816efe91afec5a62fcbb45c9e124cf7c4f54b4aa7d650c,email,3,1980-06-15,1,112,suspendido,2025-05-10 11:22:28,usuario
+157,OSCARJIMENEZ,garzondaniela@example.com,otro,e12b0b70cd8203e36e85241eed9c238a95f857236ec7aadd10aa62480bc9735f,email,3,2003-11-09,1,70,activo,2025-12-12 04:44:22,usuario
+158,patricia88,giraldoheidy@example.net,femenino,6ac248a302d685fee5818cbd83905e25700be6680a66c067c660e82ccb63bceb,email,2,2006-04-28,0,186,suspendido,2025-01-12 09:23:58,usuario
+159,  mosquerapatricia ,felipemendez@example.net,otro,a55b801160444b6e471544194cd569ebf378bf2ca1401d9dac21642a2db52f65,email,2,1986-04-03,0,67,activo,2025-05-22 21:49:23,usuario
+160,romeroruth,alvaroduque@example.net,otro,5ff4cb37bd43250b0a12bffad095bcd81b0d973c53d751a7e9aadf88a3d5b769,email,2,1983-06-24,1,131,suspendido,18/02/2025 12:22,usuario
+161,patriciaguevara,mgomez@example.org,femenino,d66deb458dee9f9a8f4953f3dbc7acc86baf2f0611fdc8b2c27fe4f944ab60fa,google,3,1973-04-03,1,411,suspendido,30/07/2026 04:51,admin
+162,jose87,maria34@example.com,masculino,a117506347ec0a90c5471ace3dd1dff3d39e542e4318da81afda33ac218b1e75,email,3,1963-09-14,1,203,baneado,2025-07-10 00:34:19,usuario
+163,LUISA56,yvillamizar@example.com,femenino,7d307746e02da00fad12b6a12896efe12a559349ec0954245961614198e6cba3,email,1,1964-02-08,falso,63,suspendido,2026-09-10 09:05:21,admin
+164,zmorales,francisco61@example.com,otro,ee54dc45f9d16af64f5d8d80925e8e79de34920a00e79b94866911d2ef4f1e59,email,2,1994-08-14,1,481,activo,2026-04-28 10:31:53,usuario
+165,angelica15,viviana96@example.org,otro,6afb0545d8d01468583bd84a8c60d185cbca6030f2da83cf82f03283b6472739,email,3,1973-02-17,1,312,activo,04/01/2026 13:49,usuario
+166,bonillaemilio,ycastro@example.org,otro,4d24f66cfce287d672871aa8188a26584b6a7532f1d813736ac10274dc038044,google,2,1984-10-09,1,59,activo,2025-10-20 04:32:26,usuario
+167,jose20,gustavobuitrago@example.com,femenino,85e7b2bf358d24d3a1b818c3fba5b55b5d9ead6b61ff5ad1f328ab64a5085211,email,1,2004-03-26,0,454,suspendido,18/09/2025 09:44,  usuario  
+168,julieth90,manuelnunez@example.com,otro,db317128cbe545c720fe66525184f36c00e5cc6f52c69556902846e0bb061485,email,3,1965-06-05,1,214,activo,2025-05-09 04:42:44,usuario
+169,andrescastillo,tatiana10@example.net,otro,e28bc40a98699db5f8d508d7ed29e6548408a3fe847c57cf79cd7b3a45765c06,google,1,1966-01-30,1,315,activo,2026-01-26 16:07:01,usuario
+170,munozbeatriz,nrojas@example.com,femenino,9d234ae5ce8a19cf72b331ab528c905c33b74421f37b94d88ad490c1741184cf,email,1,1996-01-31,1,486,baneado,2025-09-03 11:24:26,usuario
+171,hernandezpatricia,ernestomarin@example.org,femenino,0d1067399539c84a0707d9359c1ceab7ca668dc5786742c6f3915723c12aa720,google,3,1994-04-11,1,330,activo,2025-04-11 09:02:04,usuario
+172,camilo88,adolfo22@example.com,,1e0c0413c61ca688b453e0a948c77340e99fa2aa6daad38dcaa02c34e504e4ad,email,2,1982-08-07,0,108,activo,2026-04-09 14:52:32,usuario
+173,leidyzapata,luis57@example.net,femenino,25084189f5212da1017c6c9dcef17da6b9f675b179d31d802a503cf364b2ddb6,email,1,1969-02-09,1,402,activo,2025-04-11 23:59:07,usuario
+174,fanny78,ksolanoexample.org,masculino,eda3974e29919e132deab2c6579d674f673c5777d862b4346021daf6e655df2d,google,3,1966-09-19,0,445,activo,2024-12-27 23:04:23,usuario
+175,cardonamanuel,carmen89@example.org,otro,860dc118df972bb22049a2c484e6cce66cafc503af0d8f3e92e2a8d8652288c8,google,1,1982-06-04,0,74,activo,2026-03-20 19:29:56,usuario
+176,serranojose,claudia53@example.com,masculino,2fdbdc5b6689d8eaec4f862aece074d6cb1c180728f04b94e0d52370d3e62e23,google,3,1969-08-19,1,67,activo,2025-10-08 22:01:44,admin
+177,edgar43,carmen49@example.net,femenino,dd5b6bb179e129753f39a4110a0d1aad457ea834bcb428e310d6478e75b17efd,email,1,1996-02-29,0,26,activo,03/10/2026 00:04,usuario
+178,carolinapineda,hector90@example.org,masculino,9e48a8ed6cf11845ca86837889c5b9026347cc59dfaf642e285d46964723daea,email,2,2004-06-20,1,185,activo,17/03/2025 21:02,usuario
+179,  jesus96 ,zapataantonio@example.com,,de037f4305c4e3dc40ac0e10a08ca6917e63c6571baa76540f2b70f83051cb7a,email,1,2004-07-02,1,465,activo,2026-06-28 18:20:18,usuario
+180,RICARDODUQUE,marlene02@example.com,masculino,49714b0fe613a03e5595314a787927fbafe575ad2f2940f669abcfa1e7fbc9f0,email,1,1981-05-29,1,433,activo,2025-11-17 00:11:01,admin
+181,  alberto55 ,hermes25@example.net,femenino,e95064ef305779de572b3c83d93f3ad4cd8a6d4342e0b42c9dba64f960b14291,email,1,1992-06-15,1,164,activo,2025-04-14 08:42:15,  usuario  
+182,cgonzalez,isabelmartinez@example.com,otro,4382e8b136689e679a077791bfc220a5ea57e8323eed87ecb7ff36658968acf7,email,3,1982-07-26,1,166,activo,2025-05-13 15:45:36,usuario
+183,johnsaavedra,liliana27@example.net,otro,c4582e137d3b973db89b5193c822a9745d21d82cf7cf27c62f2307d9b14e988f,email,3,1989-04-21,verdadero,406,activo,18/05/2025 17:31,usuario
+184,LOPEZINGRID,nparada@example.net,otro,15a2ecf5bda13d6eef9b0db0b78a83cee96d2937369a43d9d97c033347f3e0ca,email,3,1981-11-05,1,220,suspendido,2025-11-28 05:05:37,usuario
+185,pcarvajal,agutierrez@example.org,femenino,c58d8610722d7f8d2d7b596d53e2519e8ad970c26bb7d68ec909fe0da8753877,email,2,1964-04-16,1,48,activo,2025-06-13 10:18:07,usuario
+186,cristian50,jmartinez@example.org,masculino,665d5e01bc77ff9d68523612ca11d475e7054f2295c4927fe4ee77579c706058,email,3,1978-11-06,1,34,activo,25/05/2026 23:10,usuario
+187,wmora,augusto99@example.org,otro,db29041be67f5094cf466d0eaad85885ceda268e68a7d06fe4ce72deb57c69e9,email,3,1980-06-28,1,66,activo,03/01/2025 00:10,usuario
+188,william58,alfonso39@example.net,femenino,035c828c6e1b1840666a18311d771124bdddbf2328f50bbea4c61e5d2e02e444,email,3,1967-06-07,0,181,activo,08/09/2025 20:20,usuario
+189,hernandeznelly,jdelgado@example.net,otro,b4bd50cf30e765a589f1918ab2d92fc1a969b6dc797b81018bbcddba99313fda,email,1,1963-08-04,1,307,suspendido,2024-12-12 01:57:19,admin
+190,cecilia94,jose88@example.com,masculino,97dcba4e947517b40204ed021ddd46cfb4685e491b9273f914383322c6fe774b,email,3,1970-05-13,1,433,activo,2025-07-19 15:09:58,usuario
+191,ariasjavier,yorozco@example.net,femenino,ce83adde908808b5e30b1e1dd6dcf876b1cf8812fed0ed7e32467a5681a1f003,email,3,1981-04-02,0,219,suspendido,2025-11-10 18:04:45,usuario
+192,portiz,oscarorozco@example.org,otro,31cf6c20b4df972757278d7607fdc87f93334641bbdc106967c25b6a37a7ce40,google,3,2003-09-03,1,13,baneado,2024-11-27 14:10:43,usuario
+193,RSANCHEZ,marianunez@example.org,masculino,495527097c9101ec945859850c768c87ebd7c270a38b0f42f80996b59317236d,email,1,2003-01-09,0,390,activo,2026-07-01 13:08:40,usuario
+194,ssanchez,lucyguevaraexample.com,masculino,f57f16e27885c4ec8df547343e8b59190b7af5228bb7773621fd5ce4218127b4,email,3,1990-11-12,1,35,activo,08/07/2025 13:05,usuario
+195,joselondono,usilva@example.org,otro,d6b084a48d19a1cd66f09306d5df3384a98cc6bef46a1f85276c41f9f7afdfcc,email,3,1965-02-02,0,214,activo,2026-05-09 02:02:37,USUARIO
+196,javier49,pramirez@example.com,femenino,e0b7c2a859dee012024d43bee06e2794a6dbfb1c9e018a9bd4d829cfd18f4a9e,email,3,1997-02-16,1,452,activo,2025-07-30 18:52:40,usuario
+197,diego75,yromero@example.net,otro,eea25f2d01655310a807e2b046049932b5fa56cc29c1d1043abf7806e9270002,email,1,1976-02-26,0,338,activo,2025-06-26 01:22:38,usuario
+198,  ztriana ,wilmar24example.org,masculino,0beddbcdbdb7481bf6c43cda7ad26543f38e8c22ce083e1035fee143f32bcf88,email,3,1969-02-22,0,220,activo,2026-01-26 07:49:19,usuario
+199,vhoyos,irojas@example.com,otro,0feab59793521c72e0f35f4c157febd4348943e043b5802177e3bbf4252d3761,email,3,1966-03-25,1,112,activo,2025-08-02 22:07:24,usuario
+200,  sandramena ,olgacamacho@example.net,femenino,b90ad56f34ddbec6bf20c180ba9c524f24ede37e3e3e407384088fca7753105d,email,1,2008-03-23,1,391,activo,2025-06-05 20:49:51,usuario
+201,penaoscar,duartemarcela@example.net,otro,0ef94fce994184153736256528535cb87114695cf4a91af11a0bf10f64b222fd,email,2,1976-09-11,0,194,activo,2024-12-17 15:56:41,usuario
+202,MACOSTA,angelica01@example.net,otro,3fb1dccbf6dd229e03e8181177b86d8a2d982e0ac34f733b2db5390ba92bb3ee,email,2,1971-08-07,0,441,activo,2025-09-18 22:44:39,usuario
+203,barretocarolina,oswaldogomez@example.com,masculino,cfed94c1c4d50e422fcb076ce3a9d5d2c558081eb5b7b4902cbc7277fb385941,email,2,1997-04-08,1,293,activo,2026-06-03 15:33:16,usuario
+204,henry04,chaparromary@example.com,femenino,15ceb15f9a19273dc0048124a4ec447d70e765ee1899e8091d2a2feda578584f,email,1,1973-07-12,1,87,activo,04/11/2026 09:05,usuario
+205,icampo,zortiz@example.org,femenino,e8efdac85e026bd56018bfb098a5ba696e2ca2c4dd5334b5d75568b031fda453,google,1,1997-10-27,1,54,activo,2025-12-19 03:26:44,usuario
+206,oscar05,carlos32@example.net,femenino,c55c3435f9bb1014bf2da9db7b5eb3bd08e6206294c36aed36cd94db681e3c66,email,2,1992-01-30,1,113,activo,25/03/2026 10:21,usuario
+207,FMOLINA,lcamacho@example.org,masculino,1d06f12058d4a0a7b943ecf2e9841aa00cf34d44b157cb8334990a8cd761cb73,email,3,1988-06-11,1,463,activo,2026-08-11 05:38:50,usuario
+208,jenny74,karen90@example.com,otro,15f8451840e4a006fbf4af634e968ae599ae6e36f2e8f59a932af121bc9a5ead,google,1,1977-09-24,no,74,activo,2024-11-12 04:45:44,usuario
+209,SOTOYURI,marianasierra@example.net,otro,248c47a5426bba99f186a8baa2a89ad4f5956b785aeeff0f26d414eb0426d833,email,1,2007-12-29,0,395,activo,09/05/2025 10:26,usuario
+210,aura33,magalycardenas@example.net,otro,4ecbb529191f63a45c6570db582bf0d237363f920a65cbe64da75efd881e20f9,email,2,2007-10-29,1,451,activo,2025-02-06 02:13:40,USUARIO
+211,zuribe,cristianduarte@example.net,otro,c398387a1aeb9f2ec60d12b3909dbfd5c19286552816ab292a6cafddb32dba83,email,2,2008-08-13,0,34,activo,07/01/2026 11:54,usuario
+212,XCONTRERAS,alarconmartha@example.net,otro,a752ad27bcb5674783eb2ac6da648cc845920d93eb006595dd34606bb21be5d5,google,1,1966-06-03,1,37,activo,2025-12-20 01:35:37,usuario
+213,  claudiaordonez ,ngonzalez@example.net,femenino,a9cd936c572bccc4f7f24bbb3ce654ac2e25c30ec4472ae8bb20d0c0c88d40db,email,1,1974-08-10,SI,500,activo,2026-01-25 17:22:21,usuario
+214,dmontes,josecruz@example.org,femenino,a22bf23f5ed59054227595f22f115ffc6225432a7f4d45ef6bde19ec6fc71b66,email,3,1967-01-15,1,405,activo,2026-10-06 01:57:06,admin
+215,daniel64,canocarlos@example.org,otro,d099fe6a1664490ed358439cea6a5fc7a5c0f3d11f5e1252d56b22cd5a25f310,google,3,2006-08-19,0,309,activo,2026-07-26 15:25:55,usuario
+216,betancurpatricia,agomez@example.org,masculino,a97d19e689743a16f184f962dcac821766442f3c214aaeb31e5c663fc7ef8d02,email,2,2008-07-06,1,43,activo,2024-12-26 10:00:38,usuario
+217,yrivera,ypolo@example.com,femenino,5b60f0d67833c7c7e8f4cd71edb559ca792122466edb9724cc6f5cc662b2b40a,email,2,2004-07-04,1,312,activo,2026-05-27 08:22:52,usuario
+218,jesusromero,osvaldomedina@example.org,femenino,ff495cf6da6e7e4a1441309c2c3dd159143b08b023b50cb73c68942802b7a248,email,2,2005-11-19,1,26,activo,2026-09-17 04:18:09,N/A
+219,tovareduard,igil@example.com,masculino,3b2d04e1bdcc1e2f457c061aa3d3eab56f5b9be3ba72468a39e3626b64073574,email,3,1976-01-02,verdadero,145,activo,17/08/2026 07:38,usuario
+220,rherrera,ramonvanegas@example.org,otro,464dda180da4b0af377e3be1b03258a1c5921bbfbe2d50ffe97a869ec114554b,google,1,1976-06-24,1,298,suspendido,2025-05-18 03:23:54,usuario
+221,morenopatricia,marinjavier@example.org,otro,2b02aaabddd9186f77593ad9ee3a452799614c0e0a150c55fb007c0642eca22f,email,3,2005-10-11,1,66,suspendido,2025-09-28 12:39:03,usuario
+222,nmoreno,hernandezalveiro@example.org,femenino,b4d344f8daa7f5161f5633063b30cb16d11c560eb15debbd6304cc5da7dcf318,email,3,1963-11-11,1,416,suspendido,2025-09-15 08:12:33,usuario
+223,leidy28,rosariocastro@example.net,,a7be7f53514fe18a04b622baa2657665b0fe411ba24d95c09fcbb677cb381808,google,3,2000-01-21,0,343,activo,2025-07-12 14:14:07,usuario
+224,  dcortes ,libardo68@example.com,masculino,73335d94be8fe21dc39025987f997b09aab13e2dc278c38638c8d06f3d2b37ef,email,1,1972-10-07,1,392,activo,08/03/2026 02:47,usuario
+225,  leonor87 ,gustavosuarez@example.net,masculino,ee1d349812c326e20134172bf7f8633458f0f0b34452a84c649887c00997923f,email,2,1988-08-19,1,-51,activo,2025-03-02 19:03:27,usuario
+226,londonowillian,yuliethmunoz@example.com,otro,966fd0d71e614b5a774a986e6cc8d97c75defd54cdf98576864af3d02643d695,google,1,1992-05-11,1,448,activo,18/10/2026 09:27,usuario
+227,andrea30,leonor99@example.org,masculino,f8a260162a53b628ddaf1dac81bd118eed5c407e5dfce82c9c24ab26409967c4,email,1,1991-06-17,1,394,activo,2026-08-26 21:09:02,usuario
+228,carolpolo,angie03@example.org,masculino,00c8c6b46635800246724d11c19c7c44fd29582bb8adb24ec65e402efc6bbc8c,google,2,1973-08-27,True,368,suspendido,2026-07-24 21:12:51,usuario
+229,scaro,,otro,df06c3531e0e8eaedb3f78bec95f39c5a2b94bdbfa96849ca923146e636820d3,email,2,1968-10-31,0,122,activo,2026-06-10 00:16:39,usuario
+230,NATALIA58,zcorrea@example.net,masculino,a1e9efadea5d6cac6ab8bc43f73aeff2251f4c11eaac72604937260c91decbd2,email,2,1986-10-03,1,292,suspendido,2025-11-04 00:58:41,usuario
+231,  astridpena ,jairorodriguez@example.net,femenino,6a52658026b06106c2abe59b27b754f003289e3fbc100de6789f8cbb652c1868,email,3,1982-08-23,1,494,activo,2026-10-18 01:47:44,admin
+232,mjimenez,angela93@example.com,femenino,7ab41833b0a3ac82f5807b9e2266e805fa8ea8bb15fef7cc44a2f33fe9b54135,email,1,2000-04-05,1,447,activo,2026-05-20 03:26:06,NULL
+233,  cristian77 ,yperez@example.com,otro,dc026a37fdf89010e90679635e1d9dfc44c98ed35dd6b3f121eb97ff35af4c2e,google,1,2007-06-15,0,390,suspendido,2025-07-27 02:05:38,usuario
+234,wilmerrios,silvapedro@example.org,,df4788779ff43d31097df4f0394a99e764c70fea846154d765e0e49bedba24b8,email,1,1998-01-16,1,113,activo,2025-11-21 04:18:56,usuario
+235,penahector,patriciasanchez@example.org,femenino,eb0c29386035f7399b998669c90c39379acf00c0ed3d15fa1433371aff07b63c,google,1,2006-04-28,1,191,suspendido,2024-12-14 13:48:48,usuario
+236,bnavarro,lozanoelsa@example.org,,c88da32c6073b7d7ffb79b3f4d04fe6f12a1865ec5e5fd75b4e67e380e36ee08,email,2,1986-03-31,1,429,baneado,23/12/2024 20:18,NULL
+237,MARIA62,pradaandres@example.org,,642560a2d653ab2f459412f63861c3570c555a6eb861fb9cda32fa8adde0dfec,email,2,1979-07-19,1,-241,activo,2025-12-28 00:19:18,usuario
+238,monica61,jean79@example.org,femenino,b8c772244b6ce202563fe707c8df0daacb339f2f2953a7b8e855bace08d043c5,google,3,1996-09-04,0,40,activo,2025-05-21 22:51:21,usuario
+239,  arangoesteban ,lopezlizeth@example.net,otro,e039e858eee740a003775fa3b2898edf6c0d6e3cb85e26e1f5a5967f9dab0871,email,3,1976-03-21,1,56,activo,2025-06-27 21:22:20,usuario
+240,anameza,carlos18example.org,masculino,8b59b524d658cfc1900908174f8d00a6dc4ae6baf39453ef245c4330e496f0ef,email,2,2004-03-07,1,318,activo,2024-11-14 05:36:13,usuario
+241,eortiz,raul90@example.org,otro,d126c28efb9f36bb70aa42dd08b75f25f14370bb32a22d02482d58c63b3628bc,google,3,2007-12-17,0,263,activo,2026-09-27 06:39:04,usuario
+242,juanespinosa,toviedoexample.org,masculino,7181d3429e0a904fcc82d361a1b32ae7ccfffbf2f7e07dd1683efad259375e5e,email,3,1982-04-02,1,292,activo,19/11/2024 01:19,usuario
+243,ibuitrago,kelly21@example.net,femenino,b12c35b69d2a2cd20ed0b2a7c6eb0273233fe87f9185fe2dc78189f2d4a334e4,email,1,1999-06-01,si,278,activo,2026-08-17 04:27:13,NULL
+244,mendozapedro,alberto99@example.com,femenino,baf38debc891d1a9601b22413645fe5822e1ab7fc4c4c392a7d23143ef4889b9,email,2,1984-05-21,0,198,baneado,2024-12-18 14:24:49,usuario
+245,julian77,maritzaibarra@example.com,masculino,5f2dd6d60bfbe63a7cf81762964110fbdd48449046bf4d446f4863e89e1525ce,email,2,1983-01-23,0,336,activo,2024-11-29 21:42:07,admin
+246,ngarcia,orlando11@example.com,femenino,d6c4858d3474b3f29ca9fded5ad9c0e652e14dc646c511de27d2f343f4db3d27,google,1,2000-09-20,0,279,activo,2026-04-04 01:15:24,  usuario  
+247,gruiz,rodrigueznatalia@example.com,otro,1331a070edc0d2b25e15504a193c6541df61228056db58b957ccf50ebd44cf74,google,2,2003-12-27,1,245,activo,2025-03-06 17:22:09,usuario
+248,diazmayerly,flopez@example.com,femenino,f3c4cbd0395061c48058ca3b179495b6bbd29b5a76fd928beb267cb22722b6bb,email,1,1967-10-22,0,22,suspendido,17/02/2025 19:32,usuario
+249,wilson04,fgiraldo@example.net,femenino,d09aea3e582462b87eb951f3c2f202caa178efa9d712d8b0b699932b2852d978,email,3,2001-06-21,1,417,suspendido,2026-02-14 09:47:02,usuario
+250,manuelperez,karen72@example.org,masculino,11845769ae3a6d187b99b8490c52c32785b371d29fb2b2db5df30c99204c8014,google,2,1977-05-15,1,399,activo,2026-01-25 03:33:17,usuario
+251,yeny15,ariel79@example.net,femenino,485956f7e16581c00678d6c011980702ae60cf458e80b766cedbd7f6d278a430,email,2,1979-08-19,True,380,activo,2025-09-29 23:21:22,usuario
+252,maria65,,masculino,2f6d82eba5d1f313bb763bb25b3e146f9dbfe0975fc888fc1fe09a69961be305,email,2,1968-02-17,1,188,baneado,2025-02-20 03:08:51,usuario
+253,karenagudelo,yinadiazexample.com,otro,339c84c7cac2c4651c4c6c4800231a7bf3a46d8d109afd34400fa57448d0bf4c,google,2,2005-02-25,0,308,activo,11/02/2026 13:43,admin
+254,ybolanos,camilacastro@example.com,masculino,67cc02d5734bf14fdc7f60d47b16ed8685ccdd5554e74a076b03a8dd79faa017,email,1,1980-09-06,1,151,activo,2026-05-31 16:29:26,admin
+255,manuelcaicedo,nvalderrama@example.com,otro,f4df109a7cbe3e9990caf9300782666ef1c453f8c5503677a5483eef8189e250,email,2,1999-03-22,1,21,activo,11/04/2025 01:58,usuario
+256,isandoval,olga26@example.com,,2235d56d7e7189b84677ac1f46bdecb141d5dd91ec8301d5ce2639037f2cbdcf,email,2,2007-12-31,verdadero,405,suspendido,2024-12-30 14:39:02,usuario
+257,slozano,yrios@example.com,femenino,b342ddaafbaea3e38bf407311445ea8f9e521e5a26e908ff82ff372ab5a659dc,email,3,2001-07-16,1,347,activo,2025-11-14 03:01:19,admin
+258,gonzalezesther,claudia90@example.net,otro,b12de28b3e2f5cb48d8215dae626efaf31a6a287018cb57c97818ab9f25073d4,google,2,1997-05-21,False,34,activo,11/02/2026 03:02,usuario
+259,vparada,glopez@example.com,otro,6c98503ca082297314f3288c885525021f9af90f938048054f5d262aac6300a5,email,1,2006-12-14,1,347,activo,2026-03-24 05:36:51,usuario
+260,cindygiraldo,johannarodriguez@example.org,masculino,d1d06c320781888a1f27cb0346edf4921dee568f5d912be5061131c8eb6d6dc4,email,3,1996-02-26,NO,187,activo,2026-01-14 07:11:27,usuario
+261,dorisherrera,joseromero@example.org,masculino,deeefcff864b96bac130e8afad0909d592ea7b9e11ba6303c0ac87265df44588,email,1,1966-09-10,SI,255,activo,05/02/2025 01:07,usuario
+262,patricia01,mirandajesus@example.net,femenino,9bb64fb6b97d7460d8be95b0f0ee36a9bdf0edcdfad3ae0980c032465735f296,email,3,2008-04-07,1,313,suspendido,24/10/2025 07:40,usuario
+263,luisvalencia,obustos@example.com,masculino,81df8d4704e1c9935a6fa36a4c2d971a9d36e490bc259d15acb99d01ee084245,email,1,1977-06-13,1,231,suspendido,2025-12-12 16:15:47,usuario
+264,vmedina,veronicaosorio@example.org,otro,9d6c70714f0ee972117e0d26280d516e29e09f7bfa76f3aed338aa42ac0138cb,google,2,1973-07-14,1,363,activo,2026-03-19 08:49:52,usuario
+265,escobarfrancisco,doraramirez@example.org,masculino,cb1da048f90d33b1f85e5ba0092bf5cced476ab1ce2182467d9987c53341d5b7,google,3,1974-11-08,1,358,activo,2025-06-11 02:09:48,usuario
+266,juan96,romerosantiago@example.net,masculino,44bc43a5d65ee6be545d3fa5343de8b3169fa4768d936948843e1d351e46fc36,email,1,1994-02-28,1,121,activo,2025-12-21 18:45:38,  usuario  
+267,jair91,eugeniamoreno@example.org,femenino,5d5a064b537449f9d29fe58eb90c8bf3f766cf9038db06145b25dee64b0e70c2,email,2,2006-09-09,1,282,activo,2026-05-09 06:00:59,usuario
+268,  iguerrero ,fsalazar@example.net,femenino,7043dd4503ebe4c9ed256b071915c70ca6912921649ca14ae8f473022cb9c315,email,3,2008-01-15,1,269,suspendido,2025-02-24 16:33:14,usuario
+269,luisrincon,lilianasepulveda@example.net,masculino,96027786b3967fd85680ae1a46894a45a4d8959695e0675b0c5c3df7d8995219,email,2,2004-10-05,1,230,activo,2026-10-30 18:51:02,usuario
+270,yhernandez,fparraexample.com,otro,d812e5f4ebc591a0cb066abb3c301fb156dacd77260f6683364f4e93521f91c4,email,3,1985-04-13,1,-393,activo,14/11/2024 08:05,USUARIO
+271,anagomez,margaritacastro@example.net,masculino,d292aa82b4ccbf07cd045fee646c855f721159c5997a9ec3ff68cf9d1f900760,google,1,1991-01-20,1,155,activo,2025-11-21 11:27:32,admin
+272,hcaicedo,ortizandres@example.com,femenino,e857814aaa565b8a5d675f27cd163f9151d17954913b162280628888d187fc3c,google,3,1991-12-21,1,433,activo,2026-01-20 05:55:42,usuario
+273,bvasquez,galvisjesus@example.org,femenino,28fac27ba7f56fa35f0168c579a44dcaa553b6af4d0a897733fa63c57ecff98b,google,1,1963-09-07,1,314,activo,2026-06-20 04:56:36,usuario
+274,  doris17 ,guevaraleidy@example.net,otro,900d5fa60447e1e401b4065b7880a1854e26c5bf9f747aa3f70f9605f3ca8305,email,1,1963-01-17,0,319,activo,2025-10-22 05:03:29,USUARIO
+275,iperez,johncifuentesexample.net,otro,dc8ceb473a002d0b97954ec2868455fcda1efb4218c026bac2a5962a67d028d8,google,1,1984-09-16,1,14,activo,2026-09-06 16:33:02,usuario
+276,paularueda,carlos81@example.org,femenino,3cd782f0543ab00d21eaae9eae0ebccf155d0798b5f128c258c2e9192b5e1301,google,3,1979-12-24,no,292,suspendido,13/02/2026 11:40,usuario
+277,angelarturo,diegohernandez@example.org,otro,0dd85a88f466790b114996ac9ddb0d10196bf49e9ad5ded5947b8fb35c5eda52,email,3,1988-11-10,0,489,activo,21/10/2026 12:31,usuario
+278,krincon,antonio67@example.org,femenino,f9998e7a05f1df32c5b3121dcad0e2c47711de5b40a35adec1315678f66281a3,google,2,1977-09-12,1,352,activo,2026-06-21 08:20:10,Usuario
+279,jhon57,avalencia@example.net,masculino,2844eea9f847b4db540f9164b80948f93a6c3fd138f629abcc36a67383b4dbb1,email,2,1967-03-09,1,160,activo,15/09/2025 19:07,usuario
+280,GUSTAVO86,willianluna@example.com,femenino,8e6b3ed0f8f6ff05621752495c2c31ed84fd1f04b3ef8d192074fb753c3d63f0,google,2,1992-01-18,0,189,activo,14/03/2026 23:43,admin
+281,carlosreyes,,masculino,155b9dd543d8a24d5b88514dab991d19b4bb6bd7196674cb1df30bf107fe4ca6,email,2,1980-02-24,1,72,activo,27/07/2025 05:39,Usuario
+282,oviedocecilia,brodriguez@example.org,otro,28755d42b5268547b20dfa677cf8d98f884380cc5a833f25e8850117eed696ad,email,2,1992-02-15,0,443,activo,2024-11-19 12:56:46,usuario
+283,  cecilia41 ,tatiana52@example.org,otro,4b3966bf12035ccce9e20877a0c193795060d2b71d3c80a13eeb0529f8927daa,google,2,1969-10-29,0,81,suspendido,2026-09-23 01:51:57,admin
+284,yolimalopez,rodriguezvirginiaexample.org,femenino,5128776e6ffed8ae699994238f6b429b5e08159920b7e55571d9572a144c0ad5,email,2,1981-08-22,False,483,activo,2026-05-24 18:50:37,usuario
+285,srodriguez,victor62@example.com,otro,c7c6a7d545cd09e367f524da0f76f663d8882638bd760ebabb13b8ac477bea8b,email,2,1996-03-13,0,144,activo,19/04/2026 01:14,usuario
+286,lopezaura,marcela22example.org,femenino,a20ddd2ec5eec256c19c9962c8c06006e047a0ea82f6d546352b6cdcbe590e8c,email,2,1986-12-02,1,433,suspendido,2025-01-15 06:41:30,usuario
+287,  carmenzacamargo ,jonathangarzon@example.com,femenino,e226d08f7161f55ba4e90ee2024e8d89253f933c22daebd915977348d295580c,email,2,1961-06-05,1,205,activo,2026-02-23 22:36:53,usuario
+288,hernandezpaola,bromero@example.com,femenino,4ab15e502d6f777b921167c036d3bde2ef291c9537ab19584d276be6c1535d3c,email,1,1966-10-01,1,230,activo,2026-10-04 07:08:37,usuario
+289,  vargasalberto ,jaime04@example.org,otro,a9a4258a97d6d8426f31e80b66472ced33b2e17401ca4223694c326926ef0f13,google,3,1977-09-17,0,499,activo,2025-06-10 00:29:27,usuario
+290,djimenez,magnoliagonzalez@example.com,,ee4517868d3e583bcf6fed60f2127c6dcc961747f57b8c241d87ce0dd4676619,google,2,1995-07-11,1,101,activo,2025-04-02 10:03:56,usuario
+291,OSPINOOSWALDO,ximenavilla@example.com,,d65ac973ab78744f080ba6cf54d954f41243fd18f09933c787333e0ce95d65e2,email,1,1965-09-07,1,411,activo,22/12/2025 05:24,usuario
+292,xpedraza,rodriguezpatricia@example.com,otro,41e6aef4c037b2c90936ba3ef229a99d2e16c00119fe7fe29ae552004ea7b732,email,1,2007-04-29,1,313,activo,2025-03-21 02:06:42,usuario
+293,omora,zsalazar@example.org,femenino,dc5e3c58d2b416367da7e98bb614cbd1d3a018d3151089951c0f7abc4f5f68ec,email,3,1964-12-18,SI,424,activo,12/07/2026 22:52,usuario
+294,yanethalvarez,rogersanchez@example.com,femenino,7953fec2bf2fec9219ddd162a7aa873af11e9dd0d065936f6339600d0f1f90d3,email,1,1997-06-09,1,344,activo,28/02/2026 09:23,usuario
+295,alvarezfrancy,luzgarcia@example.com,otro,8ddf0b64bd38fa488b535444abf7caab9ab9a926b689d15827d06074cca1c665,email,3,2004-01-06,1,305,activo,2026-06-22 16:58:07,usuario
+296,alvarezjairo,paolatoro@example.net,otro,aa1bc6de6b94825e740ff2402e82245f411d5d6dbac722843203119db544036a,google,3,2002-07-08,0,26,baneado,22/02/2026 18:53,usuario
+297,claudia24,fuentesmaria@example.com,otro,402b73ca353975ea70a2a65328c2d313dcd1efe35060dc35eb2ad155c6c4c1f2,email,2,1994-08-19,falso,348,activo,2025-08-03 04:29:30,usuario
+298,zapatajose,sierracarlos@example.com,,00661a8bf3f5449a8d3c19c22fba3d79c00bbde9d9f1dccf8329e8756396666d,google,1,1965-03-13,True,214,activo,2025-05-30 03:10:35,usuario
+299,torresjose,andrademaria@example.org,otro,dfbd288da628fab8e1408e103155aa8050e2993e3d77b869c417c9583fcff2ac,email,2,1967-11-08,1,376,activo,2026-10-02 11:48:40,usuario
+300,gloriasalamanca,cortesarley@example.net,otro,915f321ec708d25dcea6264254050a0e55a0ab930b91d244b77473f1f3a055df,email,2,1986-11-30,1,244,activo,2026-10-22 15:42:21,usuario
+301,martapinzon,augusto95@example.org,,7ff51fda1112adf08aa77fbd54e2e4738c4abdaefe5f1bd647f67ccdedac37db,email,2,1976-02-17,1,346,activo,2025-07-14 20:15:50,usuario
+302,ricardobejarano,dgarcia@example.com,,b68a0be9703b5ed5f50631d0f2eb6ebcc9132122666a1863522362e03f0a93e1,email,2,1964-06-08,1,98,activo,2025-03-26 04:39:38,usuario
+303,CORTESMARIA,margaritaserna@example.net,femenino,3f96f69786fb36fb053e59a1e7ca6a6360901f8b8446c51582f5068bb687eb5a,email,2,1981-12-29,1,353,activo,2025-07-19 02:46:16,admin
+304,xbolivar,miguelvasquez@example.org,otro,acafdb39fe54e489ff6ec44bf96a8d3551bf1883cc1a34555269f9b304d6dae5,email,2,1992-06-02,0,293,activo,2025-08-19 22:33:27,usuario
+305,andresacevedo,angaritamaria@example.net,femenino,951d40260b6a64a7ddadf547665edbe46c4988207ac262796c8da96195190388,google,1,1988-10-02,0,147,activo,2024-11-25 11:09:33,usuario
+306,andresmoreno,jsalamanca@example.net,otro,a3400f4541d0e9dc49c03d2d577b515869c7f35ff70575c24ca57202f805d112,google,2,1981-10-11,1,109,activo,2025-01-26 15:11:23,admin
+307,yesidguzman,dolores19@example.org,otro,dc5d81ee36d5ba800430055df19c1f1a3c57763040afdf0fd3011a221ffc09eb,google,2,1963-11-03,0,315,activo,2026-10-23 11:14:21,usuario
+308,kgarcia,mejiasmith@example.org,otro,019465e6965254828769b5d2124899d85e421e4313b119df2b710696a1aff556,email,1,2004-03-19,1,-26,activo,2026-08-05 18:39:21,usuario
+309,  vbermudez ,yolanda43@example.org,otro,eeaa2abcf71474b2b4a2ed4d8d003a9b6df98eaa51009b95eadaedd8ae7d3ed9,email,1,1982-04-15,no,281,activo,2026-10-27 04:06:46,usuario
+310,sanchezclaudia,halvarez@example.net,femenino,d66b425696ba47a7e1d011ed4361e5e03e59f277c17f6cbb3ecfb70fdbb9e481,email,2,1970-02-11,1,387,activo,05/07/2026 16:31,  admin  
+311,juana11,mariosuarez@example.net,masculino,182adf8296a8546bc92f0ab550c7111636c1bd65b09bd6272771cf64a75a9c82,email,3,1974-12-24,1,273,activo,2025-10-23 21:47:04,admin
+312,milena35,rmolina@example.com,masculino,bc730d810a70fa4854192e08a58267427ec511893afa4bddc95233cf3b654a1e,email,2,1963-08-06,1,90,suspendido,22/04/2025 21:43,usuario
+313,jordonez,dianalopez@example.org,femenino,9aba1914bced5ae5daa1179ce0500a7d2b208e345982bd60cd3c0adf5634719a,google,1,1972-09-06,1,492,activo,01/12/2024 00:51,admin
+314,carmenbravo,eduardo19@example.net,femenino,8f6f48e84c14fb8a6f78d854d35461d628303cc677815e942a87bf7bbfa4251b,email,3,1965-01-17,1,475,activo,2026-08-13 20:42:06,admin
+315,ramirezjorge,andreasanabria@example.com,,3e29ae4256072e9dde8feb5f8e316849720169570d568b0951c054572ced1c6e,google,3,1965-12-14,1,-480,activo,2024-11-23 19:49:28,admin
+316,MARTINMEJIA,yzapata@example.net,masculino,debefff48cd3028652ba8b47f1477787d4159f633343fb0c7eb9b255cf2c92c3,email,2,1992-03-22,0,-234,activo,2024-12-16 05:23:41,usuario
+317,  esperanzamarin ,mariabeltran@example.org,femenino,624d740ca5c0f97091932d0e144f9e72b59931ca666aadb1cb37b4d591e7fff6,email,2,1984-12-08,SI,387,activo,22/04/2025 16:02,usuario
+318,rmartinez,mhernandez@example.net,femenino,84469f846133d639b878b0213ee75a672ff4e7239aa6e312ed70b27587c56504,email,2,1994-10-20,1,44,activo,2025-09-22 21:31:51,usuario
+319,  villamiljulio ,carol75@example.net,femenino,a7fc3f77a2e170b179f417bd588c366f60acd4c2a1fe988f0649db37bf670fd7,google,2,1996-08-19,1,3,activo,2025-05-19 09:53:25,usuario
+320,  mariahurtado ,trianajaime@example.org,femenino,095b31ca322b6ce93f1c5ad1601858b0c041085a7f0b447e9709a230a43055a5,google,2,1987-04-13,1,293,activo,04/06/2025 22:43,usuario
+321,sebastian32,vargasdaniela@example.net,masculino,844850e9c1120e0f94d7b33468275bac1c1bbc93bdf056b25bceb08cdd15df53,email,3,1992-12-12,0,157,activo,2025-12-23 02:46:22,usuario
+322,carlosriascos,lmosquera@example.org,,bb0fbbb94e517a209498796b307cc0e19be8b9d8b171df3ed64ce0a0c84eda81,google,2,1964-08-27,1,327,activo,2026-06-23 08:21:31,usuario
+323,arley05,luisdiaz@example.com,masculino,15ce9c095fd276ab8f98eaf003688179812ce9f1701556acd917321fa3d4a848,email,1,1982-06-29,1,232,activo,2026-07-26 02:17:15,admin
+324,lopezcristina,mariaacosta@example.com,otro,2d7cc82ea8fbb8f7e3716f4bc8a9bad5a97eb7a9a3680ac845a45c8065e9edbd,email,2,1972-10-18,1,410,activo,2025-11-22 19:50:14,usuario
+325,  flordiaz ,luz29@example.net,otro,5d5c8febf14595df28def9be2dfb92eaf7f5189e3da0600a169c2fe5394f213a,email,1,1974-07-24,1,270,activo,2026-07-26 06:40:18,usuario
+326,ever56,quinteropaula@example.org,masculino,046ec268538d52ed39ad3c21b99eb344bbe379e0bfbc08fcb70d5579302356cb,email,3,1968-05-25,1,103,activo,2026-08-26 08:59:13,usuario
+327,lbernal,ines92@example.com,otro,733054d7c598cd6cce02c87b86e83d2c240419ad7e69111d1b8102e3ed202a91,email,2,1990-07-31,0,105,activo,2026-07-14 22:27:15,usuario
+328,  gloriarodriguez ,xgaitan@example.net,femenino,1e7a8cbeb729cda1698ae7bad51fa46e697cc59eba8789d6473e73b306398809,google,1,2007-09-14,si,262,activo,23/06/2025 15:38,Usuario
+329,jorgelopez,vhernandez@example.org,otro,a1244ea0810d9c725e38c33d9ac83b238331f2663aa5a655198b9e51a7650b20,email,2,2001-11-04,verdadero,-202,activo,2025-07-12 01:25:58,usuario
+330,pintoenrique,liseth43@example.org,masculino,3c0e34b78c27ea24174a328bf753e2facb9fbab27167877ea133c432fb0c7528,email,1,1982-08-05,1,358,activo,2025-03-17 07:05:16,usuario
+331,camargoluz,kardila@example.com,masculino,16d0d15aa3dce6b168d91eab7d1be6ad1e4ea2a33c423159a96917f3330b1860,google,2,1984-09-13,0,209,baneado,2025-05-25 05:53:25,usuario
+332,elopez,ceciliagarcia@example.org,otro,bf437fa99056587edf34b718de5615670de96b09ee319322506121e90fb3e548,email,3,1986-08-15,1,191,activo,2025-08-06 16:51:47,usuario
+333,garciacarolina,eperez@example.net,femenino,197678ff631b593709a696869100ae304dc12d6fd1402eb7c696a5dd136cb2b1,google,2,1982-07-16,0,493,activo,28/05/2025 17:12,admin
+334,brueda,albertomejia@example.org,femenino,25298fec0d0af1f49ab48f465f02563157918134c2477ee5ddfa16f1f48eb59e,email,1,1967-03-10,0,275,activo,2025-07-27 09:17:42,usuario
+335,ubenavides,,masculino,ef76b9cc59adec5c07fdf9d919d2aff3260ef685d75a7498cf79203e6439e31a,google,1,1974-11-02,1,237,activo,03/04/2025 11:00,usuario
+336,XSANCHEZ,osorioelizabeth@example.net,masculino,c720b786ee50799b47d4779a3d6bdefd5359eb6404e2f56bd921ceafd48d885d,email,1,1999-10-05,1,79,activo,07/01/2026 19:53,usuario
+337,rodriguezcarolina,edgardo71@example.com,masculino,c2cca6102f3e6818215d8ca5645f0152547af128d5b1fc4d75f7e48650cb03c3,google,1,1993-07-15,1,214,suspendido,10/04/2025 23:38,usuario
+338,  andrea86 ,,masculino,1ad8ec4058dfc6f701b45e100b604223d3b8c8c4fc16416d0fc8953f994cec0a,google,1,1992-11-24,0,304,suspendido,21/11/2025 18:51,usuario
+339,rortiz,sanchezjhon@example.org,masculino,de0315b9079d2b52cfb47afec01269813848a479f515b6c98062071264d8e67b,google,1,1978-10-08,1,205,activo,2025-10-14 10:47:43,usuario
+340,lmanrique,luissepulveda@example.net,masculino,9ea0efb768104e67a5e5e712ab7fed6191b3be26f6ed9736c661174907c56369,google,1,1984-03-30,1,148,activo,2026-07-27 15:00:35,usuario
+341,  pcordoba ,zjimenez@example.net,otro,bf3deedc32a086ab3b98852f89fa180ed412ed0f2ed0b8849046583a556b3d49,email,3,1997-04-17,si,419,suspendido,24/04/2026 13:18,usuario
+342,paolauribe,mateoperez@example.org,otro,e60fb741c9614bb57e7229f1a309956e7b10a9f1602f3a34a436b5a105cd6641,email,3,1999-09-21,0,153,activo,2026-10-07 07:08:19,usuario
+343,rgarcia,oramirez@example.org,otro,9dc61f0035183cf068a82bba6ac716e0171e66d0a441472793fc86f4d91ec2ec,email,1,1969-06-09,1,218,activo,2024-12-10 00:58:34,Usuario
+344,garcialuis,esteban87@example.org,otro,d553aa4b5b5be5fad04afc12abf18e65228ae3a7fb05481d83d5ba97fb847cb7,email,3,1978-05-26,1,268,activo,2025-07-13 06:00:07,usuario
+345,jgonzalez,carlosmurillo@example.org,femenino,be6949ad92415bcb9e3f8aef1b757e5cba332be6dd175aeca6ad204f23880ca4,email,1,2003-04-02,1,242,activo,2026-02-06 06:39:06,usuario
+346,sernaarturo,henry46@example.net,masculino,2066918c18fe8c4e8ac6cf29b23c0e3e1c3e8f92967c46fdf998af5a287666e7,google,2,1999-02-21,1,287,activo,2026-07-05 09:12:22,usuario
+347,perezyamile,vgomezexample.net,femenino,4909ed4bdb743a7710a9238147505dea54dc70cc50ea7178fa430dd928042b99,email,1,2002-04-16,0,169,activo,09/11/2025 07:40,usuario
+348,  YESID05 ,mercedes71@example.org,masculino,d549f259346d2d13792a644851e3b4259f4e5157e09e051f35dcab78a9c2661c,google,3,1993-03-10,True,97,suspendido,2026-10-23 03:02:52,usuario
+349,ALBA69,diazlaura@example.com,masculino,a6464d596b61c85e679b1508af92ee64e7561ab71995b4069b17665138fcc5e7,email,1,1991-01-02,0,389,activo,2026-07-01 02:25:17,usuario
+350,armando82,alvarezjose@example.org,,f667cd57e941d5e29be9bc5888d9e6f469912c718518ea1e0dae6edb1b94a467,email,2,1995-12-31,1,465,activo,2026-09-11 11:00:49,usuario
+351,perezgerman,fredyvargas@example.com,masculino,bfba7c2c8705c38805980b71407bcd0bb52503ec263b0887d0cc27b9086bb64e,google,3,1996-07-12,1,245,suspendido,20/09/2026 21:23,usuario
+352,esperanzabravo,hacevedo@example.net,femenino,0e14a31b85bdb8009c17c5a0f21617d2f62d1727e76d62e803e0c76b7d115da4,google,1,1985-05-17,1,397,activo,2026-05-08 04:46:06,admin
+353,ediaz,johanna41@example.com,femenino,d1eb1dff6ca7e4b1479f6ebaa46a6ccfe73ff9baded4a4f1991ae3f468a3c278,email,2,1986-03-13,1,451,activo,2025-11-21 13:05:05,usuario
+354,estebanjaimes,albapena@example.org,femenino,2583d84345a5acdbcb981cc29431692e5761f13d9a90f2404b8b63bfe2912fb1,google,2,1964-03-25,1,189,activo,2025-03-13 10:15:13,usuario
+355,pvallejo,albertorodriguez@example.com,otro,3c5ec95f40b426c757a3ce5187563305b75169972d91de084525eca2d3c739ee,google,1,2007-04-11,0,283,activo,2024-11-13 19:18:36,usuario
+356,estela65,dvargas@example.com,masculino,5942fa14caff01b40a3e00cf7017feaf7ab3e35366c70d85f2870cd636dd8b3f,email,1,1981-08-21,1,194,activo,14/05/2026 11:53,admin
+357,rodriguezduban,luis99example.com,otro,bb6fa583cae71de07bf7b61b8713a27eec20e772b159d736211f71631455d545,email,2,2003-04-15,0,420,activo,2025-09-11 08:53:58,usuario
+358,quinteroyaneth,nelson44@example.org,femenino,00ac37d6edd5513b7a3e9cf8eb4301b35148de0f843e034bf68cc3389b7b3cb9,google,1,1968-03-16,True,180,activo,2025-11-16 01:41:41,usuario
+359,cifuentesfrancisco,rduran@example.org,otro,75261b0f2aa8c798ca1b712c9d7be09b5c08d141b85dd823989a3c0ebcd2a4a8,email,3,1977-03-15,1,268,activo,2026-10-06 16:49:18,usuario
+360,  beatriz66 ,,otro,ea673d32cef59ca55663e2c21d841ed37e9f7bb54454300868544f41136009e5,google,1,2005-06-14,1,211,suspendido,2025-11-28 05:08:28,N/A
+361,EDUARDOHENAO,qfajardo@example.com,masculino,b54061b9391559ad52ebe856ea94d244ef1a0d5fbc40402aa72b698f84041d50,email,1,1973-10-10,0,233,activo,2025-07-31 10:32:13,usuario
+362,elizabethortega,daniel82@example.net,otro,d4f7316074ed38d91a99904f54d345d8baa698186f85d47e85c1d412753c535d,email,2,1972-06-02,1,8,activo,21/08/2026 20:04,usuario
+363,maritzasarmiento,,otro,048f7fdc9215db557a12f6209e7e62611f50d495a034037ab1c20d78e5dbb8b6,email,3,2005-05-21,NO,500,activo,2025-01-15 06:06:32,usuario
+364,correaarturo,ortegaelena@example.org,femenino,c82bced8e9d570134c0d8dcdc012640b7540d3d093e32cc076e5164f7bdca70e,email,1,1992-05-29,0,-49,activo,2026-08-30 01:13:00,Usuario
+365,rosario22,nubiaospino@example.com,,c4f55a4287e5cb8f4659179ab561400187e4ce6c2d2f13904ba6587f26443c4c,email,2,1986-10-28,0,203,activo,2025-12-23 10:20:43,USUARIO
+366,reyesfernando,eugeniamartinez@example.com,masculino,a5f1f5633fda5d0d6f6a885657e9ee08ebdb972bc4f0b27491f899a8eea36943,email,3,1973-02-14,0,350,baneado,2026-07-04 21:57:20,usuario
+367,josefacabrera,hernandezbibiana@example.com,otro,a6b63e779316132ef9f27a5b3552603d71d848e12ebc222c4e54a7b2ce0dbf13,google,1,1972-04-28,0,194,activo,2026-01-28 12:03:26,usuario
+368,gomezalejandra,bernardo58@example.org,otro,809ad9e5b4d50dbd1038639ce9eb48c1622b1e4d29e95209dbdeaacbfd2cbb7d,email,1,1993-05-03,0,432,activo,31/08/2025 14:58,Usuario
+369,  lorenapardo ,carmen68@example.net,masculino,0357544be987bde1d213ac158c32330df79039bb17e72d71b350852ae9c123f5,email,3,1961-02-17,1,117,activo,2026-03-08 15:43:50,usuario
+370,jimeneznancy,bibiana25@example.com,femenino,a0e39e6ffd9364809590b9e508d7ae50eb15ebaa132b9f349a00b7e8fe5bf9c6,google,2,1965-04-17,0,38,suspendido,2026-08-08 19:00:06,usuario
+371,orodriguez,laurarodriguez@example.net,otro,05cdab026398ed143a7f184b2b972084aa1374f83639343b5d85ca298a1863bd,email,1,1973-09-03,0,435,activo,14/03/2025 23:05,usuario
+372,riverajorge,vegaluz@example.org,otro,4462bd3dbd0728637aebcaacbb056c49511a24322e92a7400ae3714bfc6676b4,email,2,1985-10-18,1,153,baneado,2026-05-13 05:29:33,usuario
+373,guerreromery,emilia23@example.net,femenino,b541a630c3c1e8b1c82da019bc5b2db89620f9a140b5fda91e3993660495e066,google,3,1962-03-12,1,169,activo,2024-12-14 08:36:22,usuario
+374,qduran,antonio26@example.org,otro,2b906d07dd062b3b7457ca5fbc8df679386dabe9d2c493c40d224eefcf23169d,google,3,1961-06-26,0,381,activo,28/06/2025 18:39,NULL
+375,martha17,albertocastano@example.net,masculino,6d0d700b0c2be5f03c7f063edefc938f701595736a314871c1dacf85b598db3a,email,2,2002-11-19,1,314,activo,06/02/2025 08:10,admin
+376,cjimenez,schavez@example.com,masculino,9983f48e5c5861d53c58ee66f330ea3d9ff6ce695c11815f8a513ed8c341983f,google,3,1985-03-17,0,230,activo,2026-05-07 06:27:04,admin
+377,fajardofredy,,femenino,ca1f7a680cc5d605beb3c379aaa8d7f186c77e57edcd8a8b5eae5b985c80921e,google,1,1961-01-14,1,338,activo,2024-11-16 19:06:20,usuario
+378,jorge74,margoth12@example.org,masculino,d07e276c459797aa0c2afabd085742335e98aded1dba2c863a964c5fa1c248e1,email,3,1967-09-29,0,-137,activo,2026-10-10 15:44:59,usuario
+379,jennifer11,rodriguezisabel@example.net,otro,1a2b33f6cedba98b1ae8f40ef07a17efe21e5d2e26790213018f58addc95908d,email,2,1985-05-13,1,54,activo,2026-07-22 12:16:26,usuario
+380,rpedraza,ariasnubia@example.org,femenino,132035d112ba7740acccefd984b199011709b3ccbc494708cad92632630e6756,email,1,1985-03-07,0,95,suspendido,02/10/2026 16:38,usuario
+381,ebarrios,zbernal@example.org,masculino,8f99bc7bd741589291712b24a1201a7307bba53edbec1551bc6e20a0fe4c5e5f,email,1,1991-12-02,0,283,activo,06/06/2025 00:46,  usuario  
+382,bejaranosantiago,guerrerojuan@example.net,femenino,c4b83415f60fa860e3fd821d228589101190b9d175e5a1f9fcac1e2cc5e63f95,email,1,2008-03-23,0,198,activo,25/05/2026 02:43,usuario
+383,npatino,prietofabio@example.net,masculino,9e6f931772b233404205c8c8a9eabd7f8e0583cb6cfb751f4219976af9cfaaf9,email,3,1973-03-09,1,350,activo,2026-02-24 17:19:45,usuario
+384,agonzalez,qgomez@example.net,femenino,7a00557ec48d019682b32cf25921078f5f377988d8f4bb65ca87b23d0d1b0c14,email,1,1969-09-28,0,222,activo,2025-11-17 02:41:49,usuario
+385,bryancamacho,jose91@example.com,femenino,ea95e0d0b093cd585ce84d9c209625893655fff266051248f0e2e44e505c3202,google,2,2008-10-18,1,369,activo,2026-09-12 08:19:35,usuario
+386,alexander62,rodriguezoswaldo@example.net,masculino,4d1f9b9a2667a9202c02c9c5f1c7e0c6293f7d8b6207e8cc38a1f52e6e5af34b,email,1,1977-10-07,1,485,activo,2025-11-16 05:15:36,usuario
+387,anarincon,vanessacastro@example.net,femenino,71bcae61709373d8e3a5d10840d92c0a08574311dfeddcf3a4e7389eb36b5c56,email,2,1994-08-05,1,417,suspendido,2026-09-13 04:31:18,usuario
+388,fayala,kmarin@example.com,femenino,340c9719703bb025d64f3078872c91931789f6fc9f8d2ced197784cca9efa404,email,2,2004-08-17,1,355,activo,27/08/2025 23:45,usuario
+389,paola70,castillomaria@example.net,femenino,3c960c001b64968a177152ed345750eff94da88e89d747e1b1e84bf8b6cf056a,google,2,1994-10-09,1,324,activo,20/10/2025 03:23,usuario
+390,  adolfo83 ,xquiroga@example.org,femenino,d5e7c6a9064c2dc854b1426f54efd85829def374b0058f9c5704f71bf128cb77,email,2,1967-01-14,1,201,activo,2026-07-14 21:20:59,usuario
+391,xbecerra,,otro,799c8903dae6ed21551d3cabbc663fb363f3b6b69d46dcae578585a4e184d5e8,email,1,1991-10-11,1,281,suspendido,2025-07-22 17:51:28,usuario
+392,luis51,trianaemma@example.net,masculino,57cd1a90f75b2a2a92f1a3c4c72f574454ec16720f55243828522c0bda3a9c6f,google,2,1984-01-30,1,425,activo,2025-08-09 17:42:36,Usuario
+393,david31,yrojas@example.org,femenino,ff586bf09cb7f1797c3b0f11d83e3e8dbbc32b5be8cc9be54e0f6cefc0877001,google,3,1988-09-11,1,324,suspendido,2025-01-28 23:20:48,usuario
+394,ogomez,perdomogina@example.net,femenino,6e60a9c62a72430e9c7add6598c1d92c348126ce70afa4924d84826c0272a374,email,2,1968-03-08,0,306,activo,2026-06-17 23:43:35,usuario
+395,vrodriguez,corteskarol@example.net,otro,9b51501e00849724c3994ef4c10c5b3deffdef28d1b5162868c0f0f698e6d878,email,2,1995-02-28,1,404,activo,2025-02-19 11:14:12,usuario
+396,EDUARDOPEREZ,sandranavarro@example.net,otro,c92fa55b665571ff223fe2ef53bf7216c16a016c44e0294670b7e1de140efa2b,google,3,1995-06-11,1,55,activo,06/07/2026 13:51,admin
+397,mguerrero,esperanzacorredor@example.com,otro,f13c9ec8d0fcd0ac2b4b61043e3386d53b264a69204fa17c5ef6e8dd1488baac,email,3,1995-02-26,0,330,activo,2026-09-22 11:45:02,usuario
+398,vagudelo,santiago85@example.net,femenino,d9cec351b6aaf18d3158d0c508006237afe48d3663a1ee1afbe34518d460b759,google,1,1969-12-04,0,132,activo,22/02/2025 05:18,usuario
+399,ALEJANDRATRUJILLO,eduardo22@example.net,otro,4c2033fcbd27a3358e883c5343f367f0eba3cc9dd5abb313a6f2b3a004f0486e,email,3,1998-07-10,0,191,activo,2026-03-13 05:38:48,usuario
+400,ochoaluis,,otro,eab2a56ccdda710d723a6768ce115e8bf9b1916d1db2e6e1e109784742099948,email,1,2004-03-10,1,12,activo,15/07/2025 07:03,usuario
+210,aura33,magalycardenas@example.net,otro,4ecbb529191f63a45c6570db582bf0d237363f920a65cbe64da75efd881e20f9,email,2,2007-10-29,1,451,activo,2025-02-06 02:13:40,USUARIO
+281,carlosreyes,,masculino,155b9dd543d8a24d5b88514dab991d19b4bb6bd7196674cb1df30bf107fe4ca6,email,2,1980-02-24,1,72,activo,27/07/2025 05:39,Usuario
+34,  hlondono ,garceseduardo@example.org,masculino,1d2befd06e8cdfcab58bad1e92ab198690b719f637ad0fa3bb3ceb974d7f308c,google,2,1990-12-01,1,438,activo,2026-01-09 09:30:29,usuario
+211,zuribe,cristianduarte@example.net,otro,c398387a1aeb9f2ec60d12b3909dbfd5c19286552816ab292a6cafddb32dba83,email,2,2008-08-13,0,34,activo,07/01/2026 11:54,usuario
+94,antonio78,garzoncristina@example.net,otro,844795f7d4405d7b587384af18e0d828b260bfecdbcdbb285df6dbf9ef15d578,email,3,1997-03-01,1,124,suspendido,2025-08-29 01:19:41,usuario
+85,nochoa,luis47example.net,masculino,6e9b23549612bb3b507f5648c79c6931ecbb06a77d889d14a335833f26903e4c,email,2,1994-10-10,1,318,activo,07/03/2026 15:54,usuario
+330,pintoenrique,liseth43@example.org,masculino,3c0e34b78c27ea24174a328bf753e2facb9fbab27167877ea133c432fb0c7528,email,1,1982-08-05,1,358,activo,2025-03-17 07:05:16,usuario
+95,  mejiadiana ,marinjhon@example.org,otro,5af87dc60ebb04fd4ba9f7399e78e59a868a6a887b94f7aa61047826ef9785f1,google,1,1976-05-01,SI,289,activo,2026-06-09 22:10:25,usuario
+267,jair91,eugeniamoreno@example.org,femenino,5d5a064b537449f9d29fe58eb90c8bf3f766cf9038db06145b25dee64b0e70c2,email,2,2006-09-09,1,282,activo,2026-05-09 06:00:59,usuario
+127,kcardenas,mercedes59@example.net,,fdd7dcc1a82e0948fe3f21834eac3aecc842e2c5cbdf0c8a8aa798fe99f95b3b,email,3,1975-06-29,1,339,activo,2025-08-26 02:12:42,usuario
+10,zburbano,marina28@example.com,,e5ab855c3cb896d1f68cf085cdf0cba058ec5b2fbdcc2a17bcf79f5542b4d7fb,email,1,1997-07-12,1,125,activo,29/05/2025 23:17,usuario
+362,elizabethortega,daniel82@example.net,otro,d4f7316074ed38d91a99904f54d345d8baa698186f85d47e85c1d412753c535d,email,2,1972-06-02,1,8,activo,21/08/2026 20:04,usuario
+57,cristian64,fvargas@example.com,otro,707a17d86a3f5f7e9f371421405abde0a7373af1dc199e54580c64a9f080686b,email,3,1991-10-17,1,136,activo,2025-07-18 18:17:13,admin
+73,  ogarcia ,sanchezedwin@example.com,,be73bae8060ab15e962344506dc4488c484edd08795b96274058d21598d01621,email,3,1965-04-19,1,204,suspendido,2025-09-14 03:10:04,usuario
+133,zgutierrez,pazcarolina@example.net,masculino,e4e8ad2d35b5e6a2eadd72e4fac18d267d0f948514edc7ea6853619fab482b82,google,2,1999-11-14,1,331,activo,17/09/2025 00:25,usuario
+43,jbenavides,lilianavergara@example.com,femenino,f95c35f91be92b376ff4f49c9684d99b3e0fc8cd6a8026ffcd6e10270160243b,email,1,1988-08-22,0,67,activo,18/07/2025 05:55,usuario
+279,jhon57,avalencia@example.net,masculino,2844eea9f847b4db540f9164b80948f93a6c3fd138f629abcc36a67383b4dbb1,email,2,1967-03-09,1,160,activo,15/09/2025 19:07,usuario
+377,fajardofredy,,femenino,ca1f7a680cc5d605beb3c379aaa8d7f186c77e57edcd8a8b5eae5b985c80921e,google,1,1961-01-14,1,338,activo,2024-11-16 19:06:20,usuario
+232,mjimenez,angela93@example.com,femenino,7ab41833b0a3ac82f5807b9e2266e805fa8ea8bb15fef7cc44a2f33fe9b54135,email,1,2000-04-05,1,447,activo,2026-05-20 03:26:06,NULL
+386,alexander62,rodriguezoswaldo@example.net,masculino,4d1f9b9a2667a9202c02c9c5f1c7e0c6293f7d8b6207e8cc38a1f52e6e5af34b,email,1,1977-10-07,1,485,activo,2025-11-16 05:15:36,usuario
